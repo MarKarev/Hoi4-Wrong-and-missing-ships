@@ -1,0 +1,15 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Jiangfang Jiandui"			
+		naval_base = 964 # Liaotung
+		task_force = {				
+			name = "Neihe chuandui"				
+			location = 964 # 
+			ship = { name = "Hai Wei" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MAN version_name = "Hai Wei Class" } } }
+		}					
+	}
+}
+
+########## STARTING PRODUCTION ##########

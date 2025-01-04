@@ -1,0 +1,39 @@
+
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		basic_battery = 1
+		early_ship_hull_light = 1
+		coastal_defense_ships = 1
+	}
+	set_naval_oob = "MAN_1936_naval_mtg"
+}
+
+if = {
+	limit = {has_dlc = "Man the Guns"}
+	### Variants ###
+	# 1936 start #
+		### Destroyer Variants ###
+	create_equipment_variant = {
+		name = "Hai Wei Class" 	#Momi Classes DDs transferred from Japan in 1937
+		type = ship_hull_light_1
+		name_group = JAP_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = empty
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_torpedo_slot = empty
+		fixed_ship_engine_slot = light_ship_engine_1
+		mid_1_custom_slot = empty
+		rear_1_custom_slot = ship_mine_sweeper_1
+	}
+}
+}
+1939.1.1 = {
+}

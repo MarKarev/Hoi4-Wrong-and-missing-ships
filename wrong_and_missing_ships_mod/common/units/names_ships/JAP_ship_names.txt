@@ -1,0 +1,1078 @@
+﻿##### JAPAN NAME LISTS #####
+### AIRCRAFT CARRIER NAMES ###
+JAP_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "Seikikubo %d -go"	
+
+	ordered = {
+		1 = {"Akagi"}
+		2 = {"Kaga"}
+		3 = {"Sōryū"}
+		4 = {Hiryū}
+		5 = {Shōkaku}
+		6 = {"Zuikaku"}
+		7 = {"Hiyō"}
+		8 = {"Jun'yō"}
+		9 = {"Taihō"}
+		10 = {"Unryū"}
+		11 = {"Amagi"}
+		12 = {"Katsuragi"}
+		13 = {"Kasagi"}
+		14 = {"Aso"}
+		15 = {"Ikoma"}
+		16 = {"Kurama"}
+		17 = {"Kaimon"}
+		18 = {"Shinano"}
+	}
+}
+### LIGHT CARRIER NAMES ###
+JAP_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "Keikubo %d -go"	
+
+	ordered = {
+		1 = {"Hōshō"}
+		2 = {"Ryūjō"}
+		3 = {"Zuihō"}	# Conversion
+		4 = {"Shōhō"}	# Cruiser conversion
+		5 = {"Ryūhō"}	# Conversion
+		6 = {"Chitose"}
+		7 = {"Chiyoda"}
+		8 = {"Ibuki"}	# Converted Ibuki CA
+	}
+}
+### LIGHT CARRIER NAMES ###
+JAP_CVE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVE
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "Keikubo %d -go"	
+
+	ordered = {
+		# CVL Names
+		9 = {"Taiyō"}		# Liner Conversion
+		10 = {"Un'yō"}
+		11 = {"Chūyō"}
+		12 = {"Taiyō"}
+		13 = {"Kaiyō"}		# Liner conversion
+		14 = {"Shin'yō"}
+		15 = {"Shimane Maru"}
+		16 = {"Ōtakisan Maru"}
+		17 = {"Akitsu Maru"}
+		18 = {"Yamashio Maru"}
+		19 = {"Chigusa Maru"}
+		20 = {"Zuiun Maru"}
+		21 = {"Kumano Maru"}
+	}
+}
+### BATTLESHIP NAMES ###
+JAP_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "Senkan %d -go"		
+
+	ordered = {
+		# Kongo Class BC
+		1 = {"Kongō"}
+		2 = {"Hiei"}
+		3 = {"Kirishima"}
+		4 = {"Haruna"}
+		# Fuso/Ise Class#
+		5 = {"Fusō"}
+		6 = {"Yamashiro"}
+		7 = {"Ise"}
+		8 = {"Hyuga"}
+		9 = {"Nagato"}
+		10 = {"Mutsu"}
+		# Yamato Class
+		11 = {"Yamato"}
+		12 = {"Musashi"}
+		13 = {"Shinano"}
+	}
+}
+### BATTLECRUISER NAMES ###
+JAP_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "Jun'yosenkan %d -go"		
+
+	unique = {
+		"Amagi" "Tsukuba" "Ikoma" "Ibuki" "Kurama" "Akagi" "Atago" "Takao" "Kongo" "Hiei" "Haruna" "Kirishima"
+		# Fictional
+		"Iwaki" "Iwate" "Asahi" "Zao" "Iide" "Azuma" "Bandai" "Nasu" "Makihata" "Tanigawa" "Takatsuma" "Hotaka"
+		"Asama" "Tsukuba" "Hotaka" "Jonen" "Norikura" "Tateshina" "Mizugaki" "Tanzawa" "Ena" "Shiomi" "Akaishi"
+		"Omine" "Ishizuchi" "Aso" "Kaimon" "Waga" "Kurikoma" "Moriyoshi" "Sumon" "Hakkai" "Iwasuge" "Myogi" "Buko"
+		"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Yufu" "Unzen" "Ariake" "Iizuma"
+	}
+}
+### HEAVY CRUISER NAMES###
+JAP_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "Jujun'yokan %d-go"
+
+	ordered = {
+		# Old Cruisers
+		1 = {"Asama"}
+		2 = {"Tokiwa"}
+		3 = {"Yakumo"}
+		4 = {"Izumo"}
+		5 = {"Kasuga"}
+		# Furutaka Class
+		6 = {"Furutaka"}
+		7 = {"Kako"}
+		# Aoba Class
+		8 = {"Aoba"}
+		9 = {"Kinugasa"}
+		# Myōkō Class
+		10 = {"Myōkō"}
+		11 = {"Nachi"}
+		12 = {"Haguro"}
+		13 = {"Ashigara"}
+		# Takao Class
+		14 = {"Takao"}
+		15 = {"Atago"}
+		16 = {"Maya"}
+		17 = {"Chōkai"}
+		# Tone Class
+		18 = {"Tone"}
+		19 = {"Chikuma"}
+		# Ibuki Class
+		20 = {"Ibuki"}
+		21 = {"Haogi"}
+	}
+}
+### LIGHT CRUISER NAMES###
+JAP_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "Keijun'yokan %d-go"
+
+	ordered = {
+		# Chikuma Class# 
+		1 = {"Chikuma"}
+		# Tenryū Class#
+		2 = {"Tenryū"} 		
+		3 = {"Tatsuta"}		
+		# Kuma Class#
+		4 = {"Kuma"}  		
+		5 = {"Tama"}
+		6 = {"Kitakami"}
+		7 = {"Ōi"}
+		8 = {"Kiso"}
+		# Nagara class#
+		9 = {"Nagara"}		
+		10 = {"Isuzu"}
+		11 = {"Natori"}
+		12 = {"Yura"}
+		13 = {"Kinu"}
+		14 = {"Abukuma"}
+		15 = {"Yūbari"}		# Yubari#
+		# Sendai Class#
+		16 = {"Sendai"}		
+		17 = {"Jintsū"}
+		18 = {"Naka"}
+		19 = {"Kako"}		           	       
+		# Mogami Class#
+		20 = {"Mogami"}		
+		21 = {"Mikuma"}
+		22 = {"Suzuya"}
+		23 = {"Kumano"}
+		# Katori Class#
+		24 = {"Katori"}		
+		25 = {"Kashima"}
+		26 = {"Kashii"}
+		27 = {"Kashiwara"}
+		# Agano class#
+		28 = {"Agano"}		
+		29 = {"Noshiro"}
+		30 = {"Yahagi"}
+		31 = {"Sakawa"}
+		# Ōypda Class#
+		32 = {"Ōyodo"}
+		# Captured ships#
+		33 = {"Ioshima"}	# Captured Chinese ship
+		34 = {"Yasoshima"}	# Captured Chinese ship          
+	}
+}
+### SEAPLANE TENDER NAMES ###
+JAP_AV_HISTORICAL = {
+	name = "NAME_THEME_HISTORICAL_AV"
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser cruiser }
+	
+	fallback_name = "Keikubo %d -go"	
+
+	ordered = {
+		1 = {"Chitose"}		
+		2 = {"Chiyoda"}
+		3 = {"Mizuho"}
+		4 = {"Nisshin"}
+		5 = {"Shimakaze"}		
+		6 = {"Akitsushima"}
+		7 = {"Chihaya"}
+	}
+}
+### CRUISER MINELAYER NAMES ###
+JAP_CM_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CM
+	
+	for_countries = { JAP }
+	
+	type = ship 
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "Fusetsukan %d -go"
+	
+	ordered = {
+		64 = {"Tokiwa"}
+		65 = {"Okinoshima"}		# 34-35
+		66 = {"Itsukushima"}		# 28-29
+		67 = {"Shirataka"}
+		68 = {"Tsugaru"}
+		69 = {"Hatsutaka"}		# 38-41 Hatsutaka Class
+		70 = {"Aotaka"}
+		71 = {"Wakataka"}
+		72 = {"Asadori"}
+		73 = {"Hashima"}
+		74 = {"Tsurushima"}
+		75 = {"Otate"}
+		76 = {"Tateishi"}
+	}
+}
+
+### REGULAR DESTROYER NAMES###
+JAP_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+	# link_numbering_with = {JAP_DE_HISTORICAL}		#remove if broken
+
+	fallback_name = "Kuchikukan %d-go"		
+		
+
+	ordered = {											
+		# Destroyers #
+		# Momo Class Destroyer
+		#1 = {"Momo"}
+		2 = {"Kashi"}		# Duplicate Name
+		3 = {"Hinoki"}		# Duplicate name
+		4 = {"Yanagi"}		# Duplicate name
+		#5 = {"Enoki"}
+		#6 = {"Maki"}					# Retired 1934
+		#7 = {"Keyaki"}					# Retired 1934
+		#8 = {"Kuwa"}					# Retired 1934
+		#9 = {"Tsubaki"}				# Retired 1935
+		#10 = {"Nara"}					# Retired 1936
+		# Kawakaze Class 
+		#11 = {"Kawakaze"}				# Retired 1934
+		#12 = {"Tanikaze"}				# Retired 1935
+		## Momi Class
+		13 = {"Momi"}				# Duplicate name	
+		14 = {"Kaya"}				# Duplicate name
+		15 = {"Nashi"}				# Duplicate name
+		16 = {"Take"}				# Dublicate Name
+		17 = {"Kaki"}
+		18 = {"Tsuga"}
+		19 = {"Nire"}				# Duplicate Name
+		20 = {"Kuri"}
+		21 = {"Dai-3-Gō"}			# ex-Kiku
+		22 = {"Dai-32-Gō"}			# ex-Aoi
+		23 = {"Dai-33-Gō"}			# ex-Hagi
+		24 = {"Dai-36-Gō"}			# ex-Fuji
+		25 = {"Dai-34-Gō"}			# ex-Susuki
+		26 = {"Dai-37-Gō"}			# ex-Hishi
+		27 = {"Hasu"}
+		#28 = {"Warabi"}				# Sank 1927
+		29 = {"Dai-39-Gō"}			#ex-Tade
+		#30 = {"Sumire"}				# Decommissioned 1940 ? 
+		31 = {"Dai-35-Gō"}			# ex-Tsuta
+		32 = {"Ashi"}
+		33 = {"Dai-38-Gō"}			# ex-Yomogi
+		# Minekaze Class # 
+		34 = {"Minekaze"}	
+		35 = {"Sawakaze"}
+		36 = {"Okikaze"}
+		37 = {"Shimakaze"}
+		38 = {"Nadakaze"}
+		39 = {"Yakaze"}
+		40 = {"Hakaze"}
+		41 = {"Shiokaze"}
+		42 = {"Akikaze"}
+		43 = {"Yūkaze"}
+		44 = {"Tachikaze"}
+		45 = {"Hokaze"}
+		46 = {"Nokaze"}
+		47 = {"Namikaze"}
+		48 = {"Numakaze"}
+		# Watatake Class
+		49 = {"Wakatake"}	
+		50 = {"Kuretake"}
+		51 = {"Sanae"}
+		52 = {"Sawarabi"}
+		53 = {"Asagao"}
+		54 = {"Yūgao"}
+		55 = {"Fuyō"}
+		56 = {"Karukaya"}
+		# Kamikaze Class
+		57 = {"Kamikaze"} 	
+		58 = {"Asakaze"}
+		59 = {"Harukaze"}
+		60 = {"Matsukaze"}
+		61 = {"Hatakaze"}
+		62 = {"Oite"}
+		63 = {"Hayate"}
+		64 = {"Asanagi"}
+		65 = {"Yūnagi"}
+		# Mutsuki Class
+		66 = {"Mutsuki"}	
+		67 = {"Kisaragi"}
+		68 = {"Yayoi"}
+		69 = {"Uzuki"}
+		70 = {"Satsuki"}
+		71 = {"Minazuki"}
+		72 = {"Fumizuki"}
+		73 = {"Nagatsuki"}
+		74 = {"Kikuzuki"}
+		75 = {"Mikazuki"}
+		76 = {"Mochizuki"}
+		77 = {"Yūzuki"}
+		#Fubuki Class
+		78 = {"Fubuki"}		
+		79 = {"Shirayuki"}
+		80 = {"Hatsuyuki"}
+		81 = {"Miyuki"}
+		82 = {"Murakumo"}
+		83 = {"Shinonome"}
+		84 = {"Usugumo"}
+		85 = {"Shirakumo"}
+		86 = {"Isonami"}
+		87 = {"Uranami"}
+			# Ayanami Sub-class
+		88 = {"Ayanami"}
+		89 = {"Shikinami"}
+		90 = {"Asagiri"}
+		91 = {"Yūgiri"}
+		92 = {"Amagiri"}
+		93 = {"Sagiri"}
+		94 = {"Oboro"}
+		95 = {"Akebono"}
+		96 = {"Sazanami"}
+		97 = {"Ushio"}
+			# Akatsuki sub-class
+		98 = {"Akatsuki"}	
+		99 = {"Hibiki"}
+		100 = {"Ikazuchi"}
+		101 = {"Inazuma"}
+		# Hatsuharu Class
+		102 = {"Hatsuharu"} 
+		103 = {"Nenohi"}
+		104 = {"Wakaba"}
+		105 = {"Hatsushimo"}
+		106 = {"Ariake"}
+		107 = {"Yūgure"}
+		# Shiratsuyu Class
+		108 = {"Shiratsuyu"} 
+		109 = {"Shigure"} 
+		110 = {"Murasame"} 
+		111 = {"Yūdachi"} 
+		112 = {"Harusame"} 
+		113 = {"Samidare"}
+		114 = {"Umikaze"} 
+		115 = {"Yamakaze"} 
+		116 = {"Kawakaze"}
+		# Kamikaze
+		117 = {"Suzukaze"}
+		# Asashio class
+		118 = {"Asashio"} 	
+		119 = {"Ōshio"}
+		120 = {"Michishio"}
+		121 = {"Arashio"}
+		122 = {"Asagumo"}
+		123 = {"Yamagumo"}
+		124 = {"Natsugumo"}
+		125 = {"Minegumo"}
+		126 = {"Arare"}
+		127 = {"Kasumi"}
+		# Kagerō Class
+		128 = {"Kagerō"}	
+		129 = {"Shiranui"}
+		130 = {"Kuroshio"}
+		131 = {"Oyashio"}
+		132 = {"Hayashio"}
+		133 = {"Natsushio"}
+		134 = {"Hatsukaze"}
+		135 = {"Yukikaze"}
+		136 = {"Amatsukaze"}
+		137 = {"Tokitsukaze"}
+		138 = {"Urakaze"}
+		139 = {"Isokaze "}
+		140 = {"Hamakaze"}
+		141 = {"Tanikaze"}
+		142 = {"Nowaki"}
+		143 = {"Arashi"}
+		144 = {"Hagikaze"}
+		145 = {"Maikaze"}
+		146 = {"Akigumo"}
+		# Yūgumo Class
+		147 = {"Yūgumo"}	
+		148 = {"Makigumo"}
+		149 = {"Kazagumo"}
+		150 = {"Naganami"}
+		151 = {"Makinami"}
+		152 = {"Takanami"}
+		153 = {"Ōnami"}
+		154 = {"Kiyonami"}
+		155 = {"Tamanami"}
+		156 = {"Suzunami"}
+		157 = {"Fujinami"}
+		158 = {"Hayanami"}
+		159 = {"Hamanami"}
+		160 = {"Okinami"}
+		161 = {"Kishinami"}
+		162 = {"Asashimo"}
+		163 = {"Hayashimo"}
+		164 = {"Akishimo"}
+		165 = {"Kiyoshimo"}
+		## Akizuki Class / Type B DDs ##
+		166 = {"Akizuki"}	
+		167 = {"Teruzuki"}
+		168 = {"Suzutsuki"}
+		169 = {"Hatsuzuki"}
+		170 = {"Niizuki"}
+		171 = {"Wakatsuki"}
+		172 = {"Shimotsuki"}
+			## Fuyutsuki sub-class
+		173 = {"Fuyutsuki"}		
+		174 = {"Harutsuki"}
+		175 = {"Yoizuki"}
+		176 = {"Natsuzuki"}	
+			## Michitsuki sub-class
+		177 = {"Hanazuki"}
+			# Unbuilt ships
+		178 = {"Michitsuki"}
+		179 = {Kiyotsuki}	
+		180 = {"Ōtsuki"}
+		181 = {"Hazuki"}
+		182 = {"Yamazuki"}
+		183 = {"Urazuki"}
+		184 = {"Aogumo"}
+		185 = {"Benigumo"}
+		186 = {"Harugumo"}
+		187 = {"Amagumo"}
+		188 = {"Yaegumo"}
+		189 = {"Fuyugumo"}
+		190 = {"Yukigumo"}
+		191 = {"Okitsukaze"}
+		192 = {"Shimokaze"}
+		193 = {"Asagochi"}
+		194 = {"Ōkaze"}
+		195 = {"Kochi"}
+		196 = {"Nishikaze"}
+		197 = {"Hae"}
+		## Matsu Class / Type D DD ##
+		198 = {"Matsu"}		
+		199 = {"Momo"}
+		200 = {"Take"}
+		201 = {"Ume"}
+		202 = {"Kuwa"}
+		203 = {"Maki"}
+		204 = {"Kiri"}
+		205 = {"Sugi"}
+		206 = {"Momi"}
+		207 = {"Kashi"}
+		208 = {"Kaya"}
+		209 = {"Hinoki"}
+		210 = {"Kaede"}
+		211 = {"Sakura"}
+		212 = {"Nara"}
+		213 = {"Tsubaki"}
+		214 = {"Keyaki"}
+		215 = {"Yanagi"}
+		## Tachibana class
+		216 = {"Tachibana"}
+		217 = {"Nire"}
+		218 = {"Tsuta"}
+		219 = {"Hagi"}
+		220 = {"Kaki"}
+		221 = {"Shii" }
+		222 = {"Nashi"}
+		223 = {"Enoki"}
+		224 = {"Kusunoki"}
+		225 = {"Odake"}
+		226 = {"Hatsuzakura"}
+		227 = {"Kaba"}
+		228 = {"Hatsuume"}
+		# Unbuilt Ships
+		229 = {"Yaezakura"}
+		230 = {"Yadake"}
+		231 = {"Madake"}			# Or Kuzu 
+		232 = {"Kaba"}
+		233 = {"Hayaume"}
+		234 = {"Katsura"}
+		235 = {"Tobiume"}	
+		236 = {"Fuji"}
+		237 = {"Wakazakura"}
+		238 = {"Yamazakura"}
+		239 = {"Ashi"}
+		240 = {"Shinodake"}
+		241 = {"Yomogi"}
+		242 = {"Shiraume"}
+		243 = {"Kiku"}
+		244 = {"Kashiwa"}
+		245 = {"Kigiku"}
+		246 = {"Hatsugiku"}	
+		247 = {"Akane"}
+		248 = {"Shiragiku"}
+		249 = {"Chigusa"}
+		250 = {"Wakakusa"}
+		251 = {"Natsugusa"}
+		252 = {"Akikusa"}
+		253 = {"Azusa"}		#
+		254 = {"Tochi"}
+		255 = {"Hishi"}
+		256 = {"Susuki"}
+		257 = {"Nogiku"}					
+		258 = {"Sakaki"}	
+		259 = {"Yaezakura"} 	
+	}
+}
+## Plants(unfinished Watake class): "Shion", "Omodaka", "Botan", "Bashō", "Nadeshiko"
+## Weather (Unfinished Kamikaze Class): "Ōkaze", "Tsumujikaze"
+## Wather II (Unfinished Yugumo Class): "Umigiri", "Yamagiri", "Tanigiri", "Taekaze", "Kiyokaze" 
+#"Satokaze", "Murakaze", "Yamasame", "Akisame", "Natsusame", "Hayasame", "Takashio", "Akishio", "Harushio", "Wakashio"
+### ESCORT DESTROYER NAMES###
+JAP_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+	#link_numbering_with = { JAP_DD_HISTORICAL }
+
+	fallback_name = "Kaibōkan No Goei %d-go"
+	
+
+	ordered = {
+		# Starting with Shimushu class
+		248 = {"Shimushu"}
+		249 = {"Kunashiri"}
+		250 = {"Ishigaki"}
+		251 = {"Hachijo"}
+		# Etorofu Class
+		252 = {"Etorofu"}
+		253 = {"Matsuwa"}
+		254 = {"Sado"}
+		255 = {"Oki"}
+		256 = {"Mutsure"}
+		257 = {"Iki"}
+		258 = {"Tsushima"}
+		259 = {"Wakamiya"}
+		260 = {"Fukae"}
+		261 = {"Amakusa"}
+		262 = {"Manju"}
+		263 = {"Kanju"}
+		264 = {"Kasado"}
+		# Mikura Class
+		265 = {"Mikura"} 
+		266 = {"Miyake"}
+		267 = {"Awaji"}
+		268 = {"Nōmi"}
+		269 = {"Kurahashi"}
+		270 = {"Chiburi"}
+		271 = {"Yashiro"}
+		272 = {"Kusagaki"}
+		273 = {"Hiburi"} # Hiburi sub-class
+		274 = {"Daitō"}
+		275 = {"Shōnan"}
+		276 = {"Kume"}
+		277 = {"Ikuna"}
+		278 = {"Shisaka"}
+		279 = {"Sakito"}
+		280 = {"Mokuto"}
+		281 = {"Habuto"}
+		282 = {"Ōtsu"}	# Not completed
+		283 = {"Tomoshiri"} # Not Completed
+		# Ukuru Class
+		284 = {"Ukuru"}
+		285 = {"Okinawa"}
+		286 = {"Amami"}
+		287 = {"Aguni"}
+		288 = {"Shinnan"}
+		289 = {"Inagi"}
+		290 = {"Habushi"}
+		291 = {"Ojika"}
+		292 = {"Kanawa"}
+		293 = {"Uku"}
+		294 = {"Takane"}
+		295 = {"Kuga"}
+		296 = {"Shiga"}
+		297 = {"Iwō"}
+		298 = {"Yaku"}
+		299 = {"Chikubu"}
+		300 = {"Kōzu"}
+		301 = {"Hodaka"}
+		302 = {"Ikara"}
+		303 = {"Ikuno"}
+		304 = {"Urumi"}
+		305 = {"Murotsu"}
+	}
+}
+### TORPEDO BOAT NAMES###
+JAP_TB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_TB
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+	
+	fallback_name = "Suraitei %d-go"
+	
+	ordered = {						
+		1 = {"Chidori"}
+		2 = {"Manazuru"}
+		3 = {"Tomozuru"}
+		4 = {"Hatsukari"}
+		5 = {"Ōtori"}
+		6 = {"Hiyodori"}
+		7 = {"Hayabusa"}
+		8 = {"Kiji"}
+		9 = {"Kari"}
+		10 = {"Sagi"}
+		11 = {"Hato"}
+		12 = {"Hatsutaka"}
+		13 = {"Aotaka"}
+		14 = {"Wakatata"}
+		15 = {"Kumataka"}
+		16 = {"Yamadori"}
+		17 = {"Mizutori"}
+		18 = {"Umidori"}
+		19 = {"Komadori"}
+	}	
+}
+### MINELAYER NAMES###
+JAP_DM_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+	
+	fallback_name = "Fusetsukan %d -go"
+
+	ordered = {
+		1 = {"Toshima"}			# 13-21 Sokuten 1913-Class Minelayer#
+		2 = {"Kuroshima"}
+		3 = {"Ashizaki"}
+		4 = {"Katoku"}
+		5 = {"Ento"}
+		6 = {"Kurokami"}
+		7 = {"Katashima"}
+		8 = {"Enoshima"}
+		9 = {"Ninoshima"}
+		10 = {"Kurosaki"}
+		11 = {"Washizaki"}
+		12 = {"Tsubame"}			#Tsubame Class#
+		13 = {"Kamome"}
+		14 = {"Yaeyama"}			# 30-1 Yaeyama#
+		15 = {"Natsushima"}		# 31-4 Natsushima Class#
+		16 = {"Nasami"}
+		17 = {"Sarushima"}		# 37-40 Sokuten Class#
+		18 = {"Sokuten"}
+		19 = {"Shirakami"}
+		20 = {"Naryu"}
+		21 = {"Kyosai"}
+		22 = {"Ukishima"}
+		23 = {"Hirashima"}		# 39-43 Hirashima Class#
+		24 = {"Hoko"}
+		25 = {"Ishizaki"}
+		26 = {"Takashima"}
+		27 = {"Saishu"}
+		28 = {"Niizaki"}
+		29 = {"Yurijima"}
+		30 = {"Nuwashima"}
+		31 = {"Maeshima" }
+		32 = {"Moroshima"}
+		33 = {"Ajiro"}			#43-44 Ajiro Class#
+		34 = {"Futtsu"}
+		35 = {"Hamizaki"}
+		36 = {"Hikoshima"}
+		37 = {"Himeshima"}
+		38 = {"Kamishima"}
+		39 = {"Kyobun"}
+		40 = {"Muso"}
+		41 = {"Niijima"}
+		42 = {"Shinoshima"}
+		43 = {"Sugashima"}
+		44 = {"Tateshima"}
+		45 = {"Terajima"}
+		46 = {"Torai"}
+		47 = {"Arashima"}
+		48 = {"Awashima"}
+		49 = {"Hayashima"}
+		50 = {"Hosojima"}
+		51 = {"Kurushima"}
+		52 = {"Makishima"}
+		53 = {"Michishima"}
+		54 = {"Mishima"}
+		55 = {"Oshima"}
+		56 = {"Toshima"}
+		57 = {"Tobishima"}
+		58 = {"Tsunoshima"}
+		59 = {"Kamishima"}		# 45 Kamishima Class#
+		60 = {"Awashima"}
+		61 = {"Hikoshima"}
+		62 = {"Eijo"} 			# Eijo emergency class#
+		63 = {"Minoo"} 
+	}
+}
+### SUBMARINES ###
+JAP_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "I-%d"
+	
+	ordered = {
+		#I-121 Class
+		121 = {"I-121"}
+		122 = {"I-122"}
+		123 = {"I-123"}
+		124 = {"I-124"}
+		# Kaidai I #
+		151 = {"I-151"}
+		# Kaidai II 
+		152 = {"I-152"}
+		# Kaidai III
+		153 = {"I-153"}
+		154 = {"I-154"}
+		155 = {"I-155"}
+		156 = {"I-156"}
+		157 = {"I-157"}
+		158 = {"I-158"}
+		159 = {"I-159"}
+		160 = {"I-160"}
+		163 = {"I-163"}
+		# Kaidai IV
+		161 = {"I-161"}
+		162 = {"I-162"}
+		164 = {"I-164"}
+		# Kaidai V
+		165 = {"I-165"}
+		166 = {"I-166"}
+		167 = {"I-167"}
+		# Kaidai VI
+		168 = {"I-168"}	# 1st Circle
+		169 = {"I-169"}
+		170 = {"I-170"}
+		171 = {"I-171"}
+		172 = {"I-172"}	
+		173 = {"I-173"}	# 1st Circle
+		174 = {"I-174"}	# 2rd Circle
+		175 = {"I-175"}	# 2rd Circle
+		# Kaidai VII
+		176 = {"I-176"}
+		177 = {"I-177"}
+		178 = {"I-178"}
+		179 = {"I-179"}
+		180 = {"I-180"}
+		181 = {"I-181"}
+		182 = {"I-182"}
+		183 = {"I-183"}
+		184 = {"I-184"}
+		185 = {"I-185"}
+		# B1 Type
+		15 = {"I-15"}
+		17 = {"I-17"}
+		19 = {"I-19"}
+		21 = {"I-21"}
+		23 = {"I-23"}
+		25 = {"I-25"}
+		26 = {"I-26"}
+		28 = {"I-28"}
+		29 = {"I-29"}
+		30 = {"I-30"}
+		31 = {"I-31"}
+		32 = {"I-32"}
+		33 = {"I-33"}
+		34 = {"I-34"}
+		35 = {"I-35"}
+		36 = {"I-36"}
+		37 = {"I-37"}
+		38 = {"I-38"}
+		39 = {"I-39"}
+		# B2 Type
+		40 = {"I-40"}
+		41 = {"I-41"}
+		42 = {"I-42"}
+		43 = {"I-43"}
+		44 = {"I-44"}
+		45 = {"I-45"}
+		# B3 Type
+		54 = {"I-54"}
+		56 = {"I-56"}
+		58 = {"I-58"}
+		# Junsen Class
+		01 = {"I-1"}
+		02 = {"I-2"} 
+		03 = {"I-3"} 
+		04 = {"I-4"} 
+		05 = {"I-5"} 
+		06 = {"I-6"} 
+		07 = {"I-7"}		# 3rd circle 
+		08 = {"I-8"} 	# 3rd Circle
+		09 = {"I-9"} 	#4th Circle
+		10 = {"I-10"}
+		11 = {"I-11"} 
+		12 = {"I-12"}
+		13 = {"I-13"}
+		14 = {"I-14"}
+		# Type C
+		16 = {"I-16"}
+		18 = {"I-18"}
+		20 = {"I-20"}
+		22 = {"I-22"}
+		24 = {"I-24"}
+		46 = {"I-46"}
+		47 = {"I-47"}
+		48 = {"I-48"}
+		# Type C Mod.
+		52 = {"I-52"}
+		53 = {"I-53"}
+		55 = {"I-55"}
+		57 = {"I-57"}
+		59 = {"I-59"}
+		201 = {"I-201"}
+		202 = {"I-202"}
+		203 = {"I-203"}
+	}
+}
+
+JAP_SS_COASTAL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_COASTAL_SUBMARINES
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "Ro-%d"
+
+	ordered = {
+		# Kaichu IV
+		25 = {"Ro-25"}
+		26 = {"Ro-26"}
+		27 = {"Ro-27"}
+		28 = {"Ro-28"}
+		# Kaichu V
+		29 = {Ro-29}
+		30 = {"Ro-30"}
+		31 = {"Ro-31"}
+		32 = {"Ro-32"}
+		# Kaichu VI
+		33 = {"Ro-33"}
+		34 = {"Ro-34"}
+		## L1-Class
+		51 = {"Ro-51"}
+		52 = {"Ro-52"}
+		## L2-Class
+		53 = {"Ro-53"}
+		54 = {"Ro-54"}
+		55 = {"Ro-55"}
+		56 = {"Ro-56"}
+		## L3-Class
+		57 = {"Ro-57"}
+		58 = {"Ro-58"}
+		59 = {"Ro-59"}
+		## L4-Class
+		60 = {"Ro-60"}
+		61 = {"Ro-61"}
+		62 = {"Ro-62"}
+		63 = {"Ro-63"}
+		64 = {"Ro-64"}
+		65 = {"Ro-65"}
+		66 = {"Ro-66"}
+		67 = {"Ro-67"}
+		68 = {"Ro-68"}
+		69 = {"Ro-69"}
+		# Ro-100 Class (Senko Class)
+		100 = {"Ro-100"}
+		101 = {"Ro-101"}
+		102 = {"Ro-102"}
+		103 = {"Ro-103"}
+		104 = {"Ro-104"}
+		105 = {"Ro-105"}
+		106 = {"Ro-106"}
+		107 = {"Ro-107"}
+		108 = {"Ro-108"}
+		109 = {"Ro-109"}
+		110 = {"Ro-110"}
+		111 = {"Ro-111"}
+		112 = {"Ro-112"}
+		113 = {"Ro-113"}
+		114 = {"Ro-114"}
+		115 = {"Ro-115"}
+		116 = {"Ro-116"}
+		117 = {"Ro-117"}
+		# Kaichu VII
+		35  = {"Ro-35"}
+		36 = {"Ro-36"}
+		37 = {"Ro-37"}
+		38 = {"Ro-38"}
+		39 = {"Ro-39"}
+		40 = {"Ro-40"}
+		41 = {"Ro-41"}
+		42 = {"Ro-42"}
+		43 = {"Ro-43"}
+		44 = {"Ro-44"}
+		45 = {"Ro-45"}
+		46 = {"Ro-46"}
+		47 = {"Ro-47"}
+		48 = {"Ro-48"}
+		49 = {"Ro-49"}
+		50 = {"Ro-50"}
+		74 = {"Ro-74"} 
+		75 = {"Ro-75"}
+	}
+}
+### THEME: JAPANESE PREFECTURES ###
+JAP_PREFECTURES = {
+	name = NAME_THEME_PREFECTURES
+
+	for_countries = { JAP }
+
+	type = ship
+
+	unique = {
+		"Yamashiro" "Kawachi" "Izumi" "Settsu" "Iga" "Ise" "Shima" "Owari" "Mikawa" "Totomi" "Suruga" "Izu" "Kai" "Sagami" "Musashi" "Awa" "Kazusa" 
+		"Shimosa" "Hitachi" "Omi" "Mino" "Hida" "Shinano" "Kozuke" "Shimotsuke" "Dewa" "Mutsu" "Wakasa" "Echizen" "Kaga" "Noto" "Etchu" "Echigo" 
+		"Sado" "Tanba" "Tango" "Tajima" "Inaba" "Hoki" "Izumo" "Iwami" "Oki" "Harima" "Mimasaka" "Bizen" "Bitchu" "Bingo" "Aki" "Suo" "Nagato" 
+		"Kii" "Awaji" "Awa" "Sanuki" "Iyo" "Tosa" "Buzen" "Chikuzen" "Chikugo" "Hizen" "Higo" "Hyuga" "Osumi" "Satsuma" "Iki" "Tsushima" "Oshima" 
+		"Shiribeshi" "Iburi" "Ishikari" "Teshio" "Kitami" "Hidaka" "Tokachi" "Kushiro" "Nemuro" "Chishima" 
+		"Hokkaido" "Aichi" "Ehime" "Gunma" "Hyogo" "Ishikawa" "Iwate" "Kagawa" "Kanagawa" "Mie" "Miyagi" "Okinawa" "Shiga" "Shimane" "Tochigi" "Yamanashi"
+	}
+}
+## THEME: JAPANESE CITIES ###
+JAP_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { JAP }
+
+	type = ship
+
+	unique = {
+		"Tokyo" "Yokohama" "Osaka" "Nagoya" "Sapporo" "Kobe" "Kyoto" "Fukuoka" "Kawasaki" "Saitama" "Hiroshima" "Sendai" "Kitakyushu" "Chiba" "Setagaya" 
+		"Sakai" "Niigata" "Hamamatsu" "Shizuoka" "Sagamihara" "Nerima" "Okayama" "Oita" "Kumamoto" "Edogawa" "Adachi" "Kagoshima" "Funabashi" "Hachioji" 
+		"Kawaguchi" "Himeji" "Suginami" "Itabashi" "Matsuyama" "Higashiosaka" "Utsunomiya" "Matsudo" "Nishinomiya" "Kurashiki" "Ichikawa" "Fukuyama" 
+		"Amagasaki" "Kanazawa" "Nagasaki" "Koto" "Katsushika" "Yokusaka" "Toyama" "Toyota" "Takamatsu" "Machida" "Gifu" "Hirakata" "Fujisawa" "Kashiwa" 
+		"Toyonaka" "Nagano" "Toyohashi" "Ichinomiya" "Wakayama" "Okazaki" "Miyazaki" "Nara" "Suita" "Takatsuki" "Shinagawa" "Asahikawa" "Iwaki" "Kochi" 
+		"Takasaki" "Koriyama" "Tokorozawa" "Kawagoe" "Kita" "Akita" "Otsu" "Koshigaya" "Maebashi" "Naha" "Nakano" "Shinjuku" "Yokaichi" "Aomori" "Kurume" 
+		"Kasugai" "Morioka" "Akashi" "Fukushima" "Tsu" "Shimonoseki" "Nagaoka" "Ichihara" "Hakodate" "Yao" "Ibaraki" "Fukui" "Meguro" "Kakogawa" "Tokushima" 
+		"Mito" "Hiratsuka" "Toshima" "Yamagata" "Sasebo" "Fuchu" "Kure" "Hachinohe" "Saga" "Neyagawa" "Soka" "Sumida" "Fuji" "Kasukabe" "Chigasaki" "Matsumoto"   
+		"Atsugi" "Yamato" "Ageo" "Takarazuka" "Chofu" "Ota" "Tsukuba" "Numazu" "Joetsu" "Shibuya" "Minato" "Kumagaya" "Isesaki" "Kishiwada" "Tottori" "Kofu" 
+		"Odawara" "Suzuka" "Matsue" "Hitachi" "Bunkyo" "Arakawa" "Itami" "Nishitokyo" "Yamaguchi" "Uji"		
+	}
+}
+
+JAP_WEATHER = {
+	name = NAME_THEME_WEATHER
+
+	for_countries = { JAP }
+
+	type = ship
+
+	unique = {
+		"Kawakaze" "Tanikaze" "Minekaze" "Sawakaze" "Okikaze" "Shimakaze" "Nadakaze" "Yakaze" "Hakaze" "Shiokaze" "Akikaze" "Yukaze" "Tachikaze" "Hokaze" "Nokaze" 
+		"Namikaze" "Numakaze" "Kamikaze" "Asakaze" "Harukaze" "Matsukaze" "Hatakaze" "Oite" "Hayate" "Asanagi" "Yunagi" 
+		"Fubuki" "Shirayuki" "Hatsuyuki" "Miyuki" "Murakumo" "Shinonome" "Usugumo" "Shirakumo" "Isonami" "Uranami" "Ayanami" "Shikinami" 
+		"Asagiri" "Yugiri" "Amagiri" "Sagiri" "Oboro" "Akebono" "Sazanami" "Ushio" "Akatsuki" "Hibiki" "Ikazuchi" "Inazuma" 
+		"Shiratsuyu" "Shigure" "Murasame" "Yudachi" "Umikaze" "Samidare" "Yamakaze" "Harusame" "Suzukaze"
+		"Asashio" "Arashio" "Oshio" "Michishio" "Yamagumo" "Natsugumo" "Minegumo" "Asagumo" "Arare" "Kasumi"
+		"Kagero" "Shiranui" "Kuroshio" "Yukikaze" "Oyashio" "Hayashio" "Natsushio" "Hatsukaze" "Amatsukaze" "Isokaze" "Tokitsukaze" "Urakaze" "Arashi" 
+		"Hagikaze" "Nowaki" "Tanikaze" "Hamakaze" "Maikaze" "Akigumo" "Yugumo" "Makigumo" "Kazagumo" "Naganami" "Makinami" "Takanami" "Onami" "Kiyonami" "Tamanami" 
+		"Suzunami" "Fujinami" "Hayanami" "Hamanami" "Asashimo" "Okinami" "Kishinami" "Hayashimo" "Akishimo" "Kiyoshimo"
+	}
+}
+
+JAP_NATURE = {
+	name = NAME_THEME_NATURE
+
+	for_countries = { JAP }
+
+	type = ship
+
+	unique = {
+			"Momo" "Kashi" "Hinoki" "Yanagi" "Enoki" "Maki" "Keyaki" "Kuwa" "Tsubaki" "Nara" 
+			"Momi" "Kaya" "Nashi" "Take" "Kaki" "Tsuga" "Nire" "Kuri" "Kiku" "Aoi" "Fuji" "Hagi" "Susuki" "Hishi" "Hasu" "Warabi" "Tade" "Sumire" "Tsuta" "Ashi" 
+			"Yomogi" "Wakatake" "Kuretake" "Sanae" "Sarawabi" "Asagao" "Yugao" "Fuyo" "Karukaya"
+			"Matsu" "Ume" "Kiri" "Sugi" "Sakura" "Kaba" "Kaede" "Yaezakura" "Yadake" "Kudzu" "Madake" "Hayaume" "Tobiume" "Wakazakura" "Yamazakura" 
+			"Tachibana" "Shii" "Kusunoki" "Odake" "Hatsuzakura" "Hatsuume" "Azusa" "Mikura" "Miyake" "Awaji" "Kurahashi" "Nomi" "Chiburi" "Yashiro" 
+			"Kusagaki" "Shinodake" "Shiraume" "Kashiwa" "Kigiku" "Hatsugiku" "Akane" "Shiragiku" "Chigusa" "Wakakusa" "Natsugusa" "Akikusa" "Tochi" "Nogiku" 			
+		}
+}
+
+JAP_RIVER_MOUNTAIN = {
+	name = NAME_THEME_RIVER_MOUNTAIN
+
+	for_countries = { JAP }
+
+	type = ship
+
+	unique = {
+		"Asama" "Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" "Mogami" "Mikuma" "Suzuya" 
+		"Kumano" "Tone" "Chikuma" "Ibuki" "Yodo" "Hirado" "Yahagi" "Tenryu" "Tatsuta" "Kuma" "Tama" "Kitakami" "Oi" "Kiso" "Nagara" "Isuzu" "Natori" 
+		"Yura" "Kinu" "Abukuma" "Yubari" "Sendai" "Jintsu" "Naka" "Agano" "Noshiro" "Yahagi" "Sakawa" "Oyodo"
+		"Ayase" "Minase" "Otonase" 
+	}
+}
+
+#######

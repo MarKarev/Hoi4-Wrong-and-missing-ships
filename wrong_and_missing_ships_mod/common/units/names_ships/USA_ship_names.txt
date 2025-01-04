@@ -1,0 +1,2686 @@
+﻿##### USA NAME LISTS #####
+### AIRCRAFT CARRIER NAMES ###
+USA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "USS "							
+	fallback_name = "Carrier CV-%d"	
+
+	ordered = {
+		
+		01 = {"Langley"}
+		02 = {"Lexington"}
+		03 = {"Saratoga"}
+		04 = {"Ranger"}
+		05 = {"Yorktown"}
+		06 = {"Enterprise"}
+		07 = {"Wasp"}
+		08 = {"Hornet"}
+		09 = {"Essex"}
+		10 = {"Bon Homme Richard"}	# Renamed Yorktown
+		11 = {"Intrepid"}
+		12 = {"Kearsarge"}		# Renamed USS Hornet
+		13 = {"Franklin"}
+		14 = {"Ticonderoga"}	# ex-Hancock
+		15 = {"Randolph"}
+		16 = {"Cabot"}			# Renamed Lexington
+		17 = {"Bunker Hill"}
+		18 = {"Oriskany"}		# Renamed Wasp
+		19 = {"Hancock"}		# ex Ticonderoga
+		20 = {"Bennington"}
+		21 = {"Boxer"}
+		31 = {"Bonhomme Richard"}			# Bon Homme Richard
+		32 = {"Crown Point"}	# Renamed Leyte
+		33 = {"Kearsarge"}
+		34 = {"Oriskany"}
+		35 = {"Reprisal"}
+		36 = {"Antietam"}
+		37 = {"Princeton"}
+		38 = {"Shangri-La"}
+		39 = {"Lake Champlain"}
+		40 = {"Tarawa"}
+		45 = {"Valley Forge"}
+		46 = {"Iwo Jima"}
+		47 = {"Philippine Sea"}
+		# Midway Class
+		41 = {"Midway"}
+		42 = {"Franklin D. Roosevelt"}
+		43 = {"Coral Sea"}
+	}
+}
+### LIGHT CARRIER NAMES ###
+USA_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "USS "							
+	fallback_name = "Carrier CVL-%d"	
+
+	ordered = {
+		
+		## Independence Class##
+		1 = {"Wright"}
+		22 = {"Independence"}
+		23 = {"Princeton"}
+		24 = {"Belleau Wood"}
+		25 = {"Cowpens"}
+		26 = {"Monterey"}
+		27 = {"Langley"}
+		28 = {"Cabot"}
+		29 = {"Bataan"}
+		30 = {"San Jacinto"}
+		#ä Saipan Class
+		48 = {"Saipan"}
+		49 = {"Wright"}
+	}
+}
+### ESCORT CARRIER NAMES ###
+USA_CVE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVE
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "USS "							
+	fallback_name = "Carrier CVE-%d"	
+
+	ordered = {
+		## Long Island Class CVE ##
+		01 = {"Long Island"}
+		## Bogue Class CVE ##
+		09 = {"Bogue"}
+		11 = {"Card"}
+		12 = {"Copahee"}
+		13 = {"Core"}
+		16 = {"Nassau"}			
+		18 = {"Altamaha"}
+		20 = {"Barnes"}
+		21 = {"Block Island"}
+		23 = {"Breton"}
+		25 = {"Croatan"}
+		30 = {"Charger"}
+		31 = {"Prince William"}
+		## SANGAMON CLASS CVE ##
+		26 = {"Sangamon"}
+		27 = {"Suwannee"}
+		28 = {"Chenango"}
+		29 = {"Santee"}
+		## Bogue Class UK##
+		#6 = {"Altamaha"}			# HMS Battler
+		#7 = {"Barnes"}				# HMS Attacker
+		#8 = {"Block Island"}		# HMS Hunter
+		#10 = {"Breton"} 			# HMS Chaser
+		#14 = {"Croatan"}			# HMS Fencer
+		#15 = {"Hamlin"}			# HMS Stalker
+		#17 = {"St. George"}		# HMS Pursuer
+		#19 = {"Prince William"}	# HMS Striker
+		#22 = {"CVE-22"}			# HMS Searcher
+		#24 = {"CVE-24"}			# HMS Ravager
+		#32 = {"Chatham"}			# HMS Slinger
+		#33 = {"Glacier"}			# HMS Atheling
+		#34 = {"Pybus"}				# HMS Emperor
+		#35 = {"Baffins"}			# HMS Ameer
+		#36 = {"Bolinas"}			# HMS Begum
+		#37 = {"Bastian"}			# HMS Trumpeter
+		#38 = {"Carnegie"}			# HMS Empress
+		#39 = {"Cordova"}			# HMS  Khedive
+		#40 = {"Delgada"}			# HMS Speaker
+		#41 = {"Edisto"}			# HMS Nabob
+		#42 = {"Estero"}			# HMS Premier
+		#43 = {"Jamaica"}			# HMS Shah
+		#44 = {"Keweenaw"}			# HMS Patroller
+		#45 = {"Prince"}			# HMS Rajah
+		#46 = {"Niantic"}			# HMS Ranee
+		#47 = {"Peridido"}			# HMS Trouncer
+		#48 = {"Sunset"}			# HMS Thane
+		#49 = {"St. Andrews"}		# HMS Queen
+		#50 = {"St. Joseph"}		# HMS Ruler
+		#51 = {"St. Simon"}			# HMS Arbiter
+		#52 = {"Vermillion"}		# HMS Smiter
+		#53 = {"Willapa"}			# HMS Puncher
+		#54 = {"Winjah"}			# HMS Reaper
+		## Casablanca Class CVE ##
+		55 = {"Casablanca"}
+		56 = {"Liscombe Bay"}
+		57 = {"Anzio"}				# USS Alikula Bay - USS Coral Sea
+		58 = {"Corregidor"}
+		59 = {"Mission Bay"}
+		60 = {"Guadalcanal"}
+		61 = {"Manila Bay"}
+		62 = {"Natoma Bay"}
+		63 = {"St. Lo"}			# "Midway"#
+		64 = {"Tripoli"}		# "Didrickson Bay"#
+		65 = {"Wake Island"}
+		66 = {"White Plains"}
+		67 = {"Solomons"}
+		68 = {"Kalinin Bay"}
+		69 = {"Kasaan Bay"}
+		70 = {"Fanshaw Bay"}
+		71 = {"Kitkun Bay"}
+		72 = {"Tulagi"}
+		73 = {"Gambier Bay"}
+		74 = {"Nehenta Bay"}
+		75 = {"Hoggatt Bay"}
+		76 = {"Kadashan Bay"}
+		77 = {"Marcus Island"}
+		78 = {"Savo Island"}
+		79 = {"Ommaney Bay"}
+		80 = {"Petrof Bay"}
+		81 = {"Rudyerd Bay"}
+		82 = {"Saginaw Bay"}
+		83 = {"Sargent Bay"}
+		84 = {"Shamrock Bay"}
+		85 = {"Shipley Bay"}
+		86 = {"Sitkoh Bay"}
+		87 = {"Steamer Bay"}
+		88 = {"Tananek Bay"}		# Renamed Cape Esperance 11.1944
+		89 = {"Takanis Bay"}
+		90 = {"Thetis Bay"}
+		91 = {"Makassar Strait"}
+		92 = {"Windham Bay"}
+		93 = {"Makin Island"}
+		94 = {"Lunga Point"}		# ex-Alazon Bay
+		95 = {"Bismarck Sea"}		# ex-Alikula Bay
+		96 = {"Anguilla Bay"}			# renamed Salamaua
+		97 = {"Hollandia"}			# ex-Astrolabe Bay 
+		98 = {"Kwajalein"}			# ex-Bucareli Bay
+		99 = {"Admiralty Islands"}	# ex-Chaplin Bay
+		100 = {"Bougainville"}
+		101 = {"Matanikau"}			# ex-Dolomi Bay
+		102 = {"Attu"}				# ex-Elbour Bay
+		103 = {"Roi"}				# ex-Alava Bay
+		104 = {"Munda"}				# ex-Tonowek Bay
+		## Commencement Bay Class CVE ##
+		105 = {"Commencement Bay"}		# ex-St Joseph Bay
+		106 = {"Block Island"}			# ex-Sunset Bay
+		107 = {"Gilbert Islands"}		# ex-St Andrews Bay
+		108 = {"Kula Gulf"}				# ex-Vermillion Bay
+		109 = {"Cape Gloucester"}		# ex-Willapa Bay
+		110 = {"Salerno Bay"}			# ex-Winjah Bay
+		111 = {"Vella Gulf"}			# ex-Totem Bay
+		112 = {"Siboney"}				# ex-Frosty Bay
+		113 = {"Puget Sound"}			# ex-Hobart Bay
+		114 = {"Rendova"}				# ex-Mosser Bay
+		115 = {"Bairoko"}				# ex-Portage Bay
+		116 = {"Badoeng Strait"}		# ex-San Alberto Bay
+		117 = {"Saidor"}				# ex-Saltery Bay
+		118 = {"Sicily"}				# ex-Sandy Bay
+		119 = {"Point Cruz"}			# ex-Trocadero Bay
+		120 = {"Mindoro"}			
+		121 = {"Rabaul"}
+		122 = {"Palau"}
+		123 = {"Tinian"}
+		124 = {"Bastogne"}
+		125 = {"Eniwetok"}
+		126 = {"Lingayen"}
+		127 = {"Okinawa"}
+	}
+}
+
+### BATTLESHIP NAMES ###
+USA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "USS "							
+	fallback_name = "Battleship BB-%d"		
+
+	ordered = {
+		## Indiana Class (1895-1919)
+		#01 = {"Indiana"}
+		#02 = {"Massachusetts"}
+		#03 = {"Oregon"}
+		## USS Iowa (1897-1908, 1910-14, 1917-19)##
+		#04 = {"Iowa"}
+		## Kearsarge Class (1900-1920)##
+		#05 = {"Kearsarge"}
+		#06 = {"Kentucky"}
+		## Illinois Class (1900-1920)
+		#07 = {"Illinois"}
+		#08 = {"Alabama"}
+		#09 = {"Wisconsin"}
+		## Maine Class (1902-1920)##
+		#10 = {"Maine"}
+		#11 = {"Missouri"}
+		#12 = {"Ohio"}
+		## Virginia Class (1906-1920)##
+		#13 = {"Virginia"}
+		#14 = {"Nebraska"}
+		#15 = {"Georgia"}
+		#16 = {"New Jersey"}
+		#17 = {"Rhode Island"}
+		##Connecticut Class (1906-1922)##
+		#18 = {"Connecticut"}
+		#19 = {"Louisiana"}
+		#20 = {"Vermont"}
+		#21 = {"Kansas"}
+		#22 = {"Minnesota"}
+		#25 = {"New Hampshire"}
+		## Missisipi Class (1906-1914)##
+		#23 = {"Missisipi"}
+		#24 = {"Idaho"}
+		## South Carolina Class##
+		#26 = {"South Carolina"}
+		#27 = {"Michigan"}
+		## Delaware Class##
+		#28 = {"Delaware"}
+		#29 = {"North Dakota"}
+		## Florida Class##
+		#30 = {"Florida"}
+		31 = {"Utah"}
+		## Wyoming Class##
+		32 = {"Wyoming"}
+		33 = {"Arkansas"}
+		## New York Class ##
+		34 = {"New York"}
+		35 = {"Texas"}
+		## Nevada Class (Standard-type)##
+		36 = {"Nevada"}
+		37 = {"Oklahoma"}
+		## Pennsylvania Class (Standard-type)##
+		38 = {"Pennsylvania"}
+		39 = {"Arizona"}
+		## New Mexico Class##
+		40 = {"New Mexico"}
+		41 = {"Mississippi"}
+		42 = {"Idaho"}
+		## Tennesee Class##
+		43 = {"Tennessee"}
+		44 = {"California"}
+		## Colorado Class##
+		45 = {"Colorado"}
+		46 = {"Maryland"}
+		#47 = {"Washington"}
+		48 = {"West Virginia"}
+		##SOUTH DAKOTA CLASS##
+		#49 = {"South Dakota"}
+		#50 = {"Indiana"}
+		#51 = {"Montana"}
+		#52 = {"Norh Carolina"}
+		#53 = {"Iowa"}
+		#54 = {"Massachusetts"}
+		## North Carolina Class##
+		55 = {"North Carolina"}
+		56 = {"Washington"}
+		## South Dakota Class##
+		57 = {"South Dakota"}
+		58 = {"Indiana"}
+		59 = {"Massachusetts"}
+		60 = {"Alabama"}
+		## Iowa Class##
+		61 = {"Iowa"}
+		62 = {"New Jersey"}
+		63 = {"Missouri"}
+		64 = {"Wisconsin"}
+		65 = {"Illinois"}
+		66 = {"Kentucky"}
+		## Montana Class##
+		67 = {"Montana"}
+		68 = {"Ohio"}
+		69 = {"Maine"}
+		70 = {"New Hampshire"}
+		71 = {"Louisiana"}
+	}
+}
+### BATTLECRUISER NAMES ###
+USA_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "USS "							
+	fallback_name = "Battlecruiser BC-%d"		
+
+	ordered = {
+		
+		# Alaska Class
+		01 = {"Alaska"}
+		02 = {"Guam"}
+		03 = {"Hawaii"}
+		04 = {"Philippines"}
+		05 = {"Puerto Rico"}
+		06 = {"Samoa"}
+		# Other US territories
+		07 = {"Virgin Islands"}
+		08 = {"Wake Island"}
+		09 = {"Midway Island"}
+		10 = {"Palmyra Island"}
+		11 = {"Baker Island"}
+		12 = {"Howland Island"}
+		13 = {"Jarvis Island"}
+		14 = {"Kuril Islands"} 
+		15 = {"Johnston Atoll"}
+		16 = {"Panama Canal"}
+		17 = {"District of Colombia"}
+		# Lexington Class (1920s)
+		18 = {"Constitution"}
+		19 = {"Constellation"}
+		20 = {"Saratoga"}
+		21 = {"Lexington"}
+		22 = {"Ranger"}
+		23 = {"United States"}
+	}
+}
+### HEAVY CRUISER NAMES###
+USA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "USS "							
+	fallback_name = "Heavy Cruiser CA-%d"
+
+	ordered = {
+		024 = {"Pensacola"}
+		025 = {"Salt Lake City"}
+		## Northampton Class##
+		026 = {"Northampton"}
+		027 = {"Chester"}
+		028 = {"Louisville"}
+		029 = {"Chicago"}
+		030 = {"Houston"}
+		031 = {"Augusta"}
+		## Portland Class##
+		033 = {"Portland"}
+		035 = {"Indianapolis"}
+		## New Orleans Class
+		032 = {"New Orleans"}
+		034 = {"Astoria"}
+		036 = {"Minneapolis"}
+		037 = {"Tuscaloosa"}
+		038 = {"San Francisco"}
+		039 = {"Quincy"}
+		044 = {"Vincennes"}
+		045 = {"Wichita"}
+		## Baltimore Class##
+		068 = {"Baltimore"}
+		069 = {"Boston"}
+		070 = {"Canberra"}
+		071 = {"St. Paul"}	# (USS Quincy)
+		072 = {"Albany"}		# (USS Pittsburgh)
+		073 = {"Saint Paul"}
+		074 = {"Columbus"}
+		075 = {"Helena"}
+		122 = {"Oregon City"}
+		123 = {"Albany"}
+		124 = {"Rochester"}
+		125 = {"Northampton"}
+		126 = {"Cambridge"}
+		127 = {"Bridgeport"}
+		128 = {"Kansas City"}
+		129 = {"Tulsa"}
+		130 = {"Bremerton"}
+		131 = {"Fall River"}
+		132 = {"Macon"}
+		133 = {"Toledo"}
+		134 = {"Des Moines"}
+		135 = {"Los Angeles"}
+		136 = {"Chicago"}
+		137 = {"Norfolk"}
+		138 = {"Scranton"}
+		139 = {"Salem"}
+		140 = {"Dallas"}
+		144 = {"Worcester"}
+		145 = {"Roanoke"}
+		148 = {"Newport News"}
+	}                
+}
+### LIGHT CRUISER NAMES###
+USA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "USS "							
+	fallback_name = "CL-%d"
+
+	ordered = {
+		## Omaha Class ## 
+		004 = {"Omaha"}
+		005 = {"Milwaukee"}
+		006 = {"Cincinnati"}
+		007 = {"Raleigh"}
+		008 = {"Detroit"}
+		009 = {"Richmond"}
+		010 = {"Concord"}
+		011 = {"Trenton"}
+		012 = {"Marblehead"}
+		013 = {"Memphis"}
+		## Brooklyn Class##
+		040 = {"Brooklyn"}
+		041 = {"Philadelphia"}
+		042 = {"Savannah"}
+		043 = {"Nashville"}
+		046 = {"Phoenix"}
+		047 = {"Boise"}
+		048 = {"Honolulu"}	
+		049 = {"St. Louis"}
+		050 = {"Helena"}
+		## Cleveland Class ##
+		055 = {"Cleveland" }
+		056 = {"Columbia"}
+		057 = {"Montpelier"}
+		058 = {"Denver"}
+		059 = {"Amsterdam"}
+		060 = {"Santa Fe"}
+		061 = {"Tallahassee"}	# Converted to CVL
+		062 = {"Birmingham"}
+		063 = {"Mobile"}
+		064 = {"Vincennes"}
+		065 = {"Pasadena"}
+		066 = {"Springfield"}
+		067 = {"Topeka"}
+		076 = {"New Haven"}		# Converted to CVL
+		077 = {"Huntington"}		# Converted to CVL
+		078 = {"Dayton"}			# Converted to CVL
+		079 = {"Wilmington"}		# Converted to CVL
+		080 = {"Biloxi"}			# Converted to CVL
+		081 = {"Houston"}
+		082 = {"Providence"}
+		083 = {"Manchester"}
+		084 = {"Buffalo"}		# Converted to CVL
+		085 = {"Fargo"}			# Converted to CVL
+		086 = {"Vicksburg"}
+		087 = {"Duluth"}
+		088 = {"Newark"}
+		089 = {"Miami"}
+		090 = {"Astoria"}
+		091 = {"Oklahoma City"}
+		092 = {"Little Rock"}
+		093 = {"Galveston"}			#(CLG-3)
+		095 = {"Oakland"}
+		096 = {"Reno"}
+		097 = {"Flint"}
+		098 = {"Tucson"}
+		100 = {"Newark"}			# Converted to CVL
+		101 = {"Amsterdam"}			# Converted to CVL
+		102 = {"Portsmouth"}
+		103 = {"Wilkes-Barre"}
+		104 = {"Atlanta"}
+		105 = {"Dayton"}
+		## Fargo Class##
+		106 = {"Fargo"}
+		107 = {"Huntington"}
+		108 = {"Newark"}
+		109 = {"New Haven"}
+		110 = {"Buggalo"}
+		111 = {"Wilmington"}
+		112 = {"Vallejo"}
+		113 = {"Helena"}
+		114 = {"Roanoke"}
+		116 = {"Tallahassee"}
+		117 = {"Cheyenne"}
+		118 = {"Chattanooga"}
+		# Older cruiser designs#
+		015 = {"Olympia"}
+		016 = {"Denver"}
+		019 = {"Cleveland"}
+		020 = {"Tacoma"}
+		022 = {"New Orleans"}	# Decomissioned 1922
+		023 = {"Albany"}			# Decomissioned 1922
+	}
+}
+### A-A LIGHT CRUISER NAMES###
+USA_CLAA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CLAA
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "USS "							
+	fallback_name = "Light Cruiser CLAA-%d"
+
+	ordered = {
+		## Atlanta Class##
+		051 = {"Atlanta"}            
+		052 = {"Juneau"}
+		053 = {"San Diego"} 
+		054 = {"San Juan"}
+		095 = {"Oakland"} 
+		096 = {"Reno"}  
+		097 = {"Flint"}
+		098 = {"Tucson"}
+		## Juneau Class##
+		119 = {"Juneau"}
+		120 = {"Spokane"}
+		121 = {"Fresno"} 
+		# From Wiki  (Unfinished/Cancelled/Converted before completion)
+		#"Tallahassee" "New Haven" "Wilmington" "Buffalo" "Newark" "Youngstown" "Vallejo" "Cheyenne" "Chattanooga" "Gary" 
+	}
+}
+### REGULAR DESTROYER NAMES###
+USA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	#link_numbering_with = { USA_DE_HISTORICAL }				# IMPROVEMENT: Add script like this so that ships don't share same name when it occurs across multiple lists (confirmed that you can make multiple Albatross Mowe, etc. with GER currently)
+
+	prefix = "USS "							
+	fallback_name = "Destroyer DD-%d"					
+
+	ordered = {											# TO CHECK: "unique = { }" working but does not seem to recognize names already in OOBs
+		# Sampson Class
+		066 = {"Allen"}
+		# Caldwell Class
+		071 = {"Gwin"}
+		# Wickes Class
+		#077 = {"Woolsey"} 			# Sunk in 1921
+		079 = {"Little"}
+		080 = {"Kimberly"}
+		082 = {"Gregory"}
+		083 = {"Stringham"}
+		#084 = {"Dyer"}
+		085 = {"Colhoun"}
+		#086 = {"Stevens"}			# Scrapped sep. 36	
+		#087 = {"McKee"}			# Scrapped jan. 36
+		090 = {"McKean"}	
+		#091 = {"Harding"}			# Scrapped sep. 36
+		092 = {"Charles V. Gridley"}
+		094 = {"Taylor"}
+		#095 = {"Bell"}				# Scrapped aug. 36
+		103 = {"Schley"}
+		104 = {"Champlin"}
+		#105 = {"Mugford"}			# Scrapped 36
+		106 = {"Chew"}
+		107 = {"Hazelwood"}			# Scrapped 1930!
+		109 = {"Crane"}
+		113 = {"Rathburne"}
+		114 = {"Talbot"}
+		115 = {"Waters"}
+		116 = {"Dent"}
+		117 = {"Dorsey"}
+		118 = {"Lea"}
+		#120 = {"Radford"}			# Scrapped Aug 36
+		125 = {"Tattnall"}
+		126 = {"Badger"}
+		128 = {"Babbitt"}
+		#129 = {"DeLong"}			# Scrapped 1922
+		130 = {"Jacob Jones"}
+		137 = {"Kilty"}
+		138 = {"Kennison"}
+		139 = {"Ward"}
+		142 = {"Tarbell"}
+		144 = {"Upshur"}
+		145 = {"Greer"}
+		146 = {"Elliot"}
+		147 = {"Roper"}
+		148 = {"Breckinridge"}
+		149 = {"Barney"}
+		150 = {"Blakeley"}
+		151 = {"Biddle"}
+		152 = {"Du Pont"}
+		153 = {"Bernadou"}
+		154 = {"Ellis"}
+		155 = {"Cole"}
+		156 = {"J. Fred Talbott"}
+		157 = {"Dickerson"}
+		158 = {"Leary"}
+		159 = {"Schenck"}
+		160 = {"Herbert"}  
+		161 = {"Palmer"}
+		163 = {"Walker"}
+		164 = {"Crosby"}
+		#165 = {"Meredith"}			# Scrapped Sep 36
+		#166 = {"Bush"}				# Scrapped Sep 36
+		#171 = {"Burns"}			# Scrapped 1932
+		#172 = {"Anthony"}			# Struck Dec 1936
+		#173 = {"Sproston"}			# Struck Dec 1936
+		#174 = {"Rizal"}			# Scrapped 1932
+		#176 = {"Renshaw"}			# Scrapped Sep 36
+		#177 = {"O'Bannon"}			# Scrapped Sep 36
+		178 = {"Hogan"}
+		179 = {"Howard"}
+		180 = {"Stansbury"}
+		181 = {"Hopewell"}
+		## DESTROYER-FOR-BASES
+		#075 = {"Wickes"}			# HMS Montgomery
+		#076 = {"Philip"}			# HMS Lancaster
+		078 = {"Evans"}				# HMS Evans
+		#081 = {"Sigourney"}		# HMS Newport
+		088 = {"Robinson"}			# HMS Newmarket
+		089 = {"Ringgold"}			# HMS Newark
+		093 = {"Fairfax"}			# HMS Richmond / Zhivuchiy (USSR)
+		#108 = {"Williams"}			# HMCS St. Clair
+		127 = {"Twiggs"}			# HMS Leamington / Zhhuchiy (USSR)
+		#131 = {"Buchanan"}			# HMS Campbeltown
+		#132 = {"Aaron Ward"}		# HMS Castleton
+		#133 = {"Hale"}				# HMS Caldwell
+		#134 = {"Crowningshield"}	# HMS Chelsea
+		#135 = {"Tillman"}			# HMS Wells
+		#140 = {"Claxton"}			# HMS Salisbury
+		#143 = {"Yarnall"}			# HMS Lincoln / HNoMS Lincoln (NOR) / Druzhny (USSR)
+		#162 = {"Thatcher"}			# HMCS Niagra (Canada)	
+		#167 = {"Cowell"}			# HMS Brighton / Zharky
+		#168 = {"Maddox"}			# HMS Georgetown
+		#169 = {"Foote"}			# HMS Roxborough / Zhyostky (USSR)
+		#170 = {"Kalk"}				# HMS Hamilton
+		#175 = {"Mackenzie"}		# HMCS Annapolis
+		#182 = {"Thomas"}			# HMS St Albans / HNoMS St Albans (NOR) / Dostoyny (USSR)
+		#183 = {"Haraden"}			# HMCS Columbia
+		#184 = {"Abbot"}			# HMS Charlestown
+		#185 = {"Bagley"}			# HMS St. Mary
+		## Clemson Class ##
+		186 = {"Clemson"}
+		187 = {"Dahlgren"}
+		188 = {"Goldsborough"}
+		#189 = {"Semmes"}
+		#192 = {"Graham"}				# Scrapped 1922
+		196 = {"George E. Badger"}
+		199 = {"Alexander Dallas"}			
+		210 = {"Broome"}
+		211 = {"Alden"}
+		212 = {"Smith Thompson"}
+		213 = {"Barker"}
+		215 = {"Borie"}
+		216 = {"John D. Edwards"}
+		217 = {"Whipple"}
+		218 = {"Parrott"}
+		219 = {"Edsall"}
+		220 = {"MacLeish"}
+		221 = {"Simpson"}
+		222 = {"Bulmer"}
+		223 = {"McCormick"}
+		224 = {"Stewart"}
+		225 = {"Pope"}
+		226 = {"Peary"}
+		227 = {"Pillsbury"}
+		228 = {"John D. Ford"}		# ex-Ford (renamed 1921)
+		229 = {"Truxtun"}
+		230 = {"Paul Jones"}
+		231 = {"Hatfield"}
+		232 = {"Brooks"}
+		233 = {"Gilmer"}
+		234 = {"Fox"}
+		235 = {"Kane"}
+		236 = {"Humphreys"}
+		237 = {"McFarland"}
+		238 = {"James K. Paulding"}
+		239 = {"Overton"}
+		240 = {"Sturtevant"}
+		241 = {"Childs"}
+		242 = {"King"}
+		243 = {"Sands"}
+		244 = {"Williamson"}
+		245 = {"Reuben James"}
+		246 = {"Bainbridge"}
+		247 = {"Goff"}
+		248 = {"Barry"}
+		#249 = {"Hopkins"}			# DMS-13
+		250 = {"Lawrence"}
+		251 = {"Belknap"}
+		255 = {"Osmond Ingram"}
+		#259 = {"Turner"}		# YW-56??
+		260 = {"Gillis"}
+		#261 = {"Delphy"}			# Sank 1925
+		#262 = {"McDermut"}			# Scrapped 1932
+		266 = {"Greene"}
+		267 = {"Ballard"}
+		270 = {"Thornton"}
+		#271 = {"Morris"}				# Scrapped Sep 36
+		#272 = {"Tingey"}				# Scrapped Sep 36
+		#275 = {"Sinclair"}				# Scrapped Aug 35
+		#276 = {"McVawley"}				# Scrapped 1931
+		#277 = {"Moody"}				# Scrapped 1931
+		#278 = {"Henshaw"}				# Scrapped 1931
+		307 = {"Hamilton"} # !!!
+		336 = {"Litchfield"}
+		#338 = {"Wasmuth"}				# DMS-15
+		342 = {"Hulbert"}
+		343 = {"Noa"}
+		344 = {"William B. Preston"}
+		# DESTROYER FOR BASES
+		#190 = {"Satterlee"}		# HMS Belmont
+		#191 = {"Mason"}			# HMS Broadwater
+		#193 = {"Abel P. Upshur"}	# HMS Claire
+		#194 = {"Hunt"}				HMS Broadway
+		195	= {"Welborn C. Wood"}	#HMS Chesterfield
+		#197 = {"Branch"}			# HMS Beverley
+		#198 = {"Herndon"}			# HMS Churchill / Deyatelnyi (USSR)
+		#252 = {"McCook"}			# HMCS St. Croix
+		#253 = {"McCalla"}			# HMS Stanley	
+		#254 = {"Rodgers"}			# HMS Sherwood
+		#256 = {"Bancroft"}			#HMCS St. Francis
+		#257 = {"Welles"}			# HMS Cameron
+		#258 = {"Aulick"}			# HMS Burnham
+		#263 = {"Laub"}				# HMS Burwell
+		#264 = {"McLanahan"}		# HMS Bradford
+		#265 = {"Edwards"}			# HMS Buxton / HMCS Buxton
+		#268 = {"Shubrick"}			#HMS Ripley
+		#269 = {"Bailey"}			# HMS Reading
+		#273 = {"Swasey"}			# HMS Rockingham
+		#274 = {"Meade"}			# HMS Ramsey
+		## Farragut Class ##
+		348 = {"Farragut"}
+		349 = {"Dewey"}
+		350 = {"Hull"}
+		351 = {"Macdonough"}
+		352 = {"Worden"}
+		353 = {"Dale"}
+		354 = {"Monaghan"}
+		355 = {"Aylwin"}
+		## Porter Class ##
+		356 = {"Porter"}
+		357 = {"Selfridge"}
+		358 = {"McDougal"}
+		359 = {"Winslow"}
+		360 = {"Phelps"}
+		361 = {"Clark"}
+		362 = {"Moffett"}
+		363 = {"Balch"}
+		## Mahan Class ##
+		364 = {"Mahan"}
+		365 = {"Cummings"}
+		366 = {"Drayton"}
+		367 = {"Lamson"}
+		368 = {"Flusser"}
+		369 = {"Reid"}
+		370 = {"Case"}
+		371 = {"Conyngham"}
+		372 = {"Cassin"}
+		373 = {"Shaw"}
+		374 = {"Tucker"}
+		375 = {"Downes"}
+		376 = {"Cushing" }
+		377 = {"Perkins"}
+		378 = {"Smith"}
+		379 = {"Preston"}
+		384 = {"Dunlap"}
+		385 = {"Fanning"}
+		## Gridley Class ##
+		380 = {"Gridley"}
+		382 = {"Craven"}
+		400 = {"McCall"}
+		401 = {"Maury"}	
+		## Bagley Class ##
+		386 = {"Bagley"}
+		387 = {"Blue"}
+		388 = {"Helm"}
+		389 = {"Mugford"}
+		390 = {"Ralph Talbot"}
+		391 = {"Henley"}
+		392 = {"Patterson"}
+		393 = {"Jarvis"}
+		## Somers Class ##
+		381 = {"Somers"}   
+		383 = {"Warrington"} 
+		394 = {"Sampson"} 
+		395 = {"Davis"} 
+		396 = {"Jouett"} 
+		## Benham Class ##
+		397 = {"Benham"}  
+		398 = {"Ellet"}
+		399 = {"Lang" }
+		402 = {"Mayrant"}
+		403 = {"Trippe"}
+		404 = {"Rhind"}
+		405 = {"Rowan"}
+		406 = {"Stack"}
+		407 = {"Sterett"}
+		408 = {"Wilson"}
+		## Sims Class ##
+		409 = {"Sims"}    
+		410 = {"Hughes"}   
+		411 = {"Anderson"}  
+		412 = {"Hammann"}    
+		413 = {"Mustin"}   
+		414 = {"Russell"} 
+		415 = {"O'Brien"}    
+		416 = {"Walke"}   
+		417 = {"Morris"} 
+		418 = {"Roe"}    
+		419 = {"Wainwright"}   
+		420 = {"Buck"} 
+		### Benson Class ##
+		421 = {"Benson"}    
+		422 = {"Mayo"}   
+		425 = {"Madison"} 
+		426 = {"Lansdale"}
+		427 = {"Hilary P. Jones"} 
+		428 = {"Charles F. Hughes"}
+		459 = {"Laffey"}   
+		460 = {"Woodworth"}
+		491 = {"Farenholt"}
+		492 = {"Bailey"}
+		598 = {"Bancroft"}
+		599 = {"Barton"}
+		600 = {"Boyle"}
+		601 = {"Champlin"}
+		603 = {"Murphy"} 
+		604 = {"Parker"}
+		605 = {"Caldwell"}
+		606 = {"Coghlan"}
+		607 = {"Frazier"}
+		608 = {"Gansevoort"}
+		609 = {"Gillespie"}
+		610 = {"Hobby"} 
+		611 = {"Kalk"}
+		612 = {"Kendrick"}
+		613 = {"Laub"}
+		614 = {"MacKenzie"}
+		615 = {"McLanahan"}
+		616 = {"Nields"}
+		617 = {"Ordronaux"} 
+		## Gleaves Class ##
+		423 = {"Gleaves"}
+		424 = {"Niblack"} 
+		429 = {"Livermore"} 
+		430 = {"Eberle"} 
+		431 = {"Plunkett"} 
+		432 = {"Kearny"}
+		433 = {"Gwin"}
+		434 = {"Meredith"} 
+		435 = {"Grayson"} 
+		436 = {"Monssen"} 
+		437 = {"Woolsey"} 
+		438 = {"Ludlow"}
+		439 = {"Edison"}
+		440 = {"Ericsson"} 
+		441 = {"Wilkes"} 
+		442 = {"Nicholson"} 
+		443 = {"Swanson"} 
+		444 = {"Ingraham" }                   
+	    ## Gleaves : Bristol-type Subclass ##
+		453 = {"Bristol"}
+		463 = {"Corry"}
+		483 = {"Aaron Ward"}
+		484 = {"Buchanan"} 
+		485 = {"Duncan"} 
+		486 = {"Lansdowne"} 
+		487 = {"Lardner"} 
+		488 = {"McCalla"} 
+		497 = {"Frankford"}       
+		619 = {"Edwards"}
+		620 = {"Glennon"}
+		622 = {"Maddox"}
+		623 = {"Nelson"}
+		624 = {"Baldwin"}
+		626 = {"Satterlee"}
+		628 = {"Welles"}
+		638 = {"Herndon"}
+		639 = {"Shubrick"}
+		640 = {"Beatty"}
+		641 = {"Tillman"}		
+		645 = {"Stevenson"}
+		646 = {"Stockton"}
+		647 = {"Thorn"}
+		648 = {"Turner"}
+		## Gleaves Class to DMS ## 
+		#454 = {"Ellyson"} 			# DMS-19
+		#455 = {"Hambleton"} 		# DMS-20
+		#456 = {"Rodman"} 			# DMS-21
+		#457 = {"Emmons"} 			# DMS-22
+		#458 = {"Macomb"} 			# DMS-23
+		#461 = {"Forrest"} 			# DMS-24
+		#462 = {"Fitch"} 			# DMS-25
+		#464 = {"Hobson"}			# DMS-26
+		#621 = {"Jeffers"}			# DMS-27
+		#625 = {"Harding"}			# DMS-28
+		#636 = {"Butler"}			# DMS-29
+		#637 = {"Gherardi"}			# DMS-30
+		#489 = {"Mervine"} 			# DMS-31
+		#490 = {"Quick"} 			# DMS-32
+		#493 = {"Carmick"} 			# DMS-33
+		#494 = {"Doyle"} 			# DMS-34
+		#495 = {"Endicott"} 		# DMS-35
+		#496 = {"McCook"} 			# DMS-36
+		#618 = {"Davison"}			# DMS-37
+		#627 = {"Thompson"}			# DMS-38
+		#632 = {"Cowie"}			# DMS-39
+		#633 = {"Knight"}			# DMS-40
+		#634 = {"Doran"}			# DMS-41
+		#635 = {"Earle"}			# DMS-42
+		## Fletcher Class ##
+		445 = {"Fletcher"}
+		446 = {"Radford"}
+		447 = {"Jenkins"}
+		448 = {"La Vallette"}
+		449 = {"Nicholas"}
+		450 = {"O'Bannon"}
+		451 = {"Chevalier"}
+		465 = {"Saufley"}
+		466 = {"Waller"}
+		467 = {"Strong"}
+		468 = {"Taylor"}
+		469 = {"De Haven"}
+		470 = {"Bache"}
+		471 = {"Beale"}
+		472 = {"Guest"}
+		473 = {"Bennett" }
+		474 = {"Fullam" }
+		475 = {"Hudson"}
+		476 = {"Hutchins"}
+		477 = {"Pringle"}
+		478 = {"Stanly"}
+		479 = {"Stevens"}
+		480 = {"Halford" }
+		481 = {"Leutze"}
+		482 = {"Watson"}
+		498 = {"Philip"}
+		499 = {"Renshaw"}
+		500 = {"Ringgold"}
+		501 = {"Schroeder"}
+		502 = {"Sigsbee"}
+		507 = {"Conway"}
+		508 = {"Cony"}
+		509 = {"Converse"}
+		510 = {"Eaton"}
+		511 = {"Foote"}
+		512 = {"Spence"}
+		513 = {"Terry"}
+		514 = {"Thatcher"}
+		515 = {"Anthony"}
+		516 = {"Wadsworth"}
+		517 = {"Walker"}
+		518 = {"Brownson"}
+		519 = {"Daly"}
+		520 = {"Isherwood"}
+		521 = {"Kimberly"}
+		522 = {"Luce"}
+		526 = {"Abner Read"}
+		527 = {"Ammen"}
+		528 = {"Mullany"}
+		529 = {"Bush"}
+		530 = {"Trathen"}
+		531 = {"Hazelwood"}
+		532 = {"Heermann"}
+		533 = {"Hoel"}
+		534 = {"McCord"}
+		535 = {"Miller"}
+		536 = {"Owen"}
+		537 = {"The Sullivans"}
+		538 = {"Stephen Potter"}
+		539 = {"Tingey"}
+		540 = {"Twining"}
+		541 = {"Yarnall"}
+		544 = {"Boyd"}
+		545 = {"Bradford"}
+		546 = {"Brown"}
+		547 = {"Cowell"}
+		550 = {"Capps"}
+		551 = {"David W. Taylor"}
+		552 = {"Evans"}
+		553 = {"John D. Henley"}
+		554 = {"Franks"}
+		555 = {"Haggard"}
+		556 = {"Hailey"}
+		557 = {"Johnston"}
+		558 = {"Laws"}
+		559 = {"Longshaw"}
+		560 = {"Morrison"}
+		561 = {"Prichett" }
+		562 = {"Robinson"}
+		563 = {"Ross"}
+		564 = {"Rowe"}
+		565 = {"Smalley"}
+		566 = {"Stoddard"}
+		567 = {"Watts"}
+		568 = {"Wren"}
+		569 = {"Aulick"}
+		570 = {"Charles Ausburne"}
+		571 = {"Claxton"}
+		572 = {"Dyson"}
+		573 = {"Harrison"}
+		574 = {"John Rodgers"}
+		575 = {"McKee"}
+		576 = {"Murray"}
+		577 = {"Sproston"}
+		578 = {"Wickes"}
+		579 = {"William D. Porter"}
+		580 = {"Young"}
+		581 = {"Charrette" }
+		582 = {"Conner"}
+		583 = {"Hall"}
+		584 = {"Halligan"}
+		585 = {"Haraden"}
+		586 = {"Newcomb"}
+		587 = {"Bell"}
+		588 = {"Burns"}
+		589 = {"Izard"}
+		590 = {"Paul Hamilton"}
+		591 = {"Twiggs"}
+		592 = {"Howorth"}
+		593 = {"Killen"}
+		594 = {"Hart"}
+		595 = {"Metcalf"}
+		596 = {"Shields"}
+		597 = {"Wiley"}
+		629 = {"Abbot"}
+		630 = {"Braine"}
+		631 = {"Erben"}
+		642 = {"Hale"}
+		643 = {"Sigourney"}
+		644 = {"Stembel"}
+		649 = {"Albert W Grant"}
+		650 = {"Caperton"}
+		651 = {"Cogswell"}
+		652 = {"Ingersoll"}		
+		653 = {"Knapp"}
+		654 = {"Bearss"}
+		655 = {"John Hood"}
+		656 = {"Van Valkenburgh"}
+		657 = {"Charles J Badger"}
+		658 = {"Colahan"}
+		659 = {"Dashiell"}
+		660 = {"Bullard"}
+		661 = {"Kidd"}
+		662 = {"Bennion"}
+		663 = {"Heywood L Edwards"}
+		664 = {"Richard P Leary"}
+		665 = {"Bryant"}
+		666 = {"Black"}
+		667 = {"Chauncey"}
+		668 = {"Clarence K. Bronson"}
+		669 = {"Cotten"}
+		670 = {"Dortch"}
+		671 = {"Gatling"}
+		672 = {"Healy"}
+		673 = {"Hickox"}
+		674 = {"Hunt"}
+		675 = {"Lewis Hancock"}
+		676 = {"Marshall"}
+		677 = {"McDermut"}
+		678 = {"McGowan"}
+		679 = {"McNair"}
+		680 = {"Melvin"}
+		681 = {"Hopewell"}
+		682 = {"Porterfield"}
+		683 = {"Stockham"}
+		684 = {"Wedderburn"}
+		685 = {"Picking"}
+		686 = {"Halsey Powell"}
+		687 = {"Uhlmann"}
+		688 = {"Remey"}
+		689 = {"Wadleigh"}
+		690 = {"Norman Scott"}
+		691 = {"Mertz"}
+		792 = {"Callaghan"}
+		793 = {"Cassin" Young}
+		794 = {"Irwin"}
+		795 = {"Preston"}
+		796 = {"Benham"}
+		797 = {"Cushing"}
+		798 = {"Monssen"}
+		799 = {"Jarvis"}
+		800 = {"Porter"}
+		801 = {"Colhoun"}
+		802 = {"Gregory"}
+		803 = {"Little"}
+		804 = {"Rooks"}
+		## Allen M Sumner
+		692 = {"Allen M. Sumner"}
+		693 = {"Moale"}
+		694 = {"Ingraham"}
+		695 = {"Cooper"}
+		696 = {"English"}
+		697 = {"Charles S. Sperry"}
+		698 = {"Ault"}
+		699 = {"Waldron"}
+		700 = {"Haynsworth"}
+		701 = {"John W. Weeks"}
+		702 = {"Hank"}
+		703 = {"Wallace L. Lind"}
+		704 = {"Borie"}
+		705 = {"Compton"}
+		706 = {"Gainard"}
+		707 = {"Soley"}
+		708 = {"Harlan R. Dickson"}
+		709 = {"Hugh Purvis"}
+		722 = {"Barton"}
+		723 = {"Walke"}
+		724 = {"Laffey"}
+		725 = {"O'Brien"}
+		726 = {"Meredotj"}
+		727 = {"De Haven"}
+		728 = {"Mansfield"}
+		729 = {"Lyman K. Swenson"}
+		730 = {"Collett"}
+		731 = {"Maddox"}
+		732 = {"Hyman"}
+		733 = {"Mannert L Abele"}
+		734 = {"Purdy"}
+		741 = {"Drexler"}
+		744 = {"Blue"}
+		745 = {"Brush"}
+		746 = {"Taussig"}
+		747 = {"Samuel N. Moore"}
+		748 = {"Harry E. Hubbard"}
+		752 = {"Alfred A. Cunningham"}
+		753 = {"John R. Pierce"}
+		754 = {"Frank E. Evans"}
+		755 = {"John A. Bole"}
+		756 = {"Beatty"}
+		757 = {"Putnam"}
+		758 = {"Strong"}
+		759 = {"Lofberg"}
+		760 = {"John W. Thomason"}
+		761 = {"Buck"}
+		762 = {"Henley"}
+		770 = {"Lowry"}
+		774 = {"Hugh W. Hadley"}
+		775 = {"Willard Keith"}
+		776 = {"James C. Owens"}
+		777 = {"Zellars"}
+		778 = {"Massey"}
+		779 = {"Douglas H. Fox"}
+		780 = {"Stormes"}
+		781 = {"Robert K. Huntington"}
+		857 = {}
+		## Gearing
+		710 = {"Gearing"}
+		711 = {"Eugene A. Greene"}
+		712 = {"Gyatt"}
+		713 = {"Kenneth D. Bailey"}
+		714 = {"William R. Rush"}
+		715 = {"William M. Wood"}
+		716 = {"Wiltsie"}
+		717 = {"Theodore E. Chandler"}
+		718 = {"Hamner"}
+		719 = {"Epperson"}
+		742 = {"Frank Knox"}
+		743 = {"Southerland"}
+		763 = {"William C. Lawe"}
+		764 = {"Lloyd Thomas"}
+		765 = {"Keppler"}
+		782 = {"Rowan"}
+		783 = {"Gurke"}
+		784 = {"McKean"}
+		785 = {"Henderson"}
+		786 = {"Richard B. Anderson"}
+		787 = {"James E. Kyes"}
+		788 = {"Hollister"}
+		789 = {"Eversole"}
+		790 = {"Shelton"}
+		805 = {"Chevalier"}
+		806 = {"Higbee"}
+		807 = {"Benner"}
+		808 = {"Dennis J. Buckley"}
+		817 = {"Corry"}
+		818 = {"New"}
+		819 = {"Holder"}
+		820 = {"Rich"}
+		821 = {"Johnston"}
+		822 = {"Robert H. McCard"}
+		823 = {"Samuel B. Roberts"}
+		824 = {"Basilone"}
+		825 = {"Carpenter"}
+		826 = {"Agerholm"}
+		827 = {"Robert A Owens"}
+		828 = {"Timmerman"}
+		829 = {"Myles C. Fox"}
+		830 = {"Everett . Larson"}
+		831 = {"Goodrich"}
+		832 = {"Hanson"}
+		833 = {"Herbert J. Thomas"}
+		834 = {"Turner"}
+		835 = {"Charles P. Cecil"}
+		836 = {"George K. MacKenzie"}
+		837 = {"Sarsfield"}
+		838 = {"Ernest G. Small"}
+		839 = {"Power"}
+		840 = {"Glennon"}
+		841 = {"Noa"}
+		842 = {"Fiske"}
+		844 = {"Perry"}
+		845 = {"Bausell"}
+		846 = {"Ozbourn"}
+		847 = {"Robert L. Wilson"}
+		848 = {"Witek"}
+		849 = {"Richard E. Kraus"}
+		850 = {"Joseph P. Kennedy Jr"}
+		851 = {"Rupertus"}
+		852 = {"Leonard F. Mason"}
+		853 = {"Charles H. Roan"}
+		858 = {"Fred T. Berry"}
+		859 = {"Norris"}
+		860 = {"McCaffery"}
+		861 = {"Harwood"}
+		862 = {"Vogelgesang"}
+		863 = {"Steinaker"}
+		864 = {"Harold J. Ellison"}
+		865 = {"Charles R. Ware"}
+		866 = {"Cone"}
+		867 = {"Stribling"}
+		868 = {"Brownson"}
+		869 = {"Arnold J. Isbell"}
+		870 = {"Fechteler"}
+		871 = {"Damato"}
+		872 = {"Forrest Royal"}
+		873 = {"Hawkins"}
+		874 = {"Duncan"}
+		875 = {"Henry W. Tucker"}
+		876 = {"Rogers"}
+		877 = {"Perkins"}
+		878 = {"Vesole"}
+		879 = {"Leary"}
+		880 = {"Dyess"}
+		881 = {"Bordelon"}
+		882 = {"Furse"}
+		883 = {"Newman K. Perry"}
+		884 = {"Floyd B. Parks"}
+		885 = {"John R. Craig"}
+		886 = {"Orleck"}
+		887 = {"Brinkley Bass"}
+		888 = {"Stickell"}
+		889 = {"O'Hare"}
+		890 = {"Meredith"}
+	}
+}        
+		# Cancelled/Converted/Never Used Ship Names
+		#"Percival" "Watson"  "Thomas E. Fraser" "Shannon" "Harry F. Bauer" "Adams" "Tolman" "Henry A. Wiley" "Shea" "J. William Ditter" "Lindsey" "Castle" "Woodrow R. Thompson" "Seaman" "Seymour D. Owens" 
+		# Retired ships -- Sampson, Caldwell, Wickes, Clemson classes
+		#"Sampson" "Fairfax" "Dyer" "Montgomery"      "Williams" "Thomas" "Rodgers" "Crowninshield" "Smith Thompson" "Mason" "Tracy" "Preble" "Sicard" "Branch" 
+		#"Childs" "Williamson" "Abel P. Upshur" "James K. Paulding" "Welborn C. Wood"
+
+### ESCORT DESTROYER NAMES###
+USA_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+	
+	#link_numbering_with = { USA_DD_HISTORICAL }	
+
+	prefix = "USS "							
+	fallback_name = "Destroyer Escort DE-%d"
+
+	ordered = {
+		## Captain Class DE (LEND-LEASE PROGRAM)##
+		#001 = {"Bayntun"}
+		#002 = {"Bazely"}
+		#003 = {"Berry"}
+		#004 = {"Blackwood"}
+		## Evarts Class DE## 
+		005 = {"Evarts"}
+		006 = {"Wyffels"}
+		007 = {"Griswold"}
+		008 = {"Steele"}
+		009 = {"Carlson"}
+		010 = {"Bebas"}
+		011 = {"Crouter"}
+		012 = {"Burges"}
+		013 = {"Brennan"}
+		014 = {"Doherty"}
+		015 = {"Austin"}
+		016 = {"Edgar G. Chase"}
+		017 = {"Edward C. Daly"}
+		018 = {"Gilmore"}
+		019 = {"Burden R. Hastings"}
+		020 = {"Le Hardy"}
+		021 = {"Harold C. Thomas"}
+		022 = {"Wileman"}
+		023 = {"Charles R. Greer"}
+		024 = {"Whitman"}
+		025 = {"Wintle"}
+		026 = {"Dempsey"}
+		027 = {"Duffy"}
+		028 = {"Emery"}
+		029 = {"Stadtfeld"}
+		030 = {"Martin"}
+		031 = {"Sederstrom"}
+		032 = {"Fleming"}
+		033 = {"Tisdale"}		
+		034 = {"Eisele"}
+		035 = {"Fair"}
+		036 = {"Manlove"}
+		037 = {"Greiner"}
+		038 = {"Wyman"}
+		039 = {"Lovering"}
+		040 = {"Sanders"}
+		041 = {"Brackett"}
+		042 = {"Reynolds"}
+		043 = {"Mitchell"}
+		044 = {"Donaldson"}
+		045 = {"Andres"}
+		#46 = {"Drury"}		Sold to UK
+		047 = {"Decker"}
+		048 = {"Dobler"}
+		049 = {"Doneff"}
+		050 = {"Engstrom"}
+		256 = {"Seid"}
+		257 = {"Smartt"}
+		258 = {"Walter S. Brown"}
+		259 = {"William C. Miller"}
+		260 = {"Cabana"}
+		261 = {"Dionne"}
+		262 = {"Canfield"}
+		263 = {"Deede"}
+		264 = {"Elden"}
+		265 = {"Cloues"}
+		301 = {"Lake"}
+		302 = {"Lyman"}
+		303 = {"Crowley"}
+		304 = {"Rall"}
+		305 = {"Halloran"}
+		306 = {"Connolly"}
+		307 = {"Finnegan"}
+		527 = {"O'Toole"}
+		528 = {"John J. Powers"}
+		529 = {"Mason"}
+		530 = {"John M. Bermingham"}
+		## Buckley Class
+		051 = {"Buckley"}
+		053 = {"Charles Lawrence"}
+		054 = {"Daniel T. Griffin"} 
+		056 = {"Donnell"} 
+		057 = {"Fogg"} 
+		059 = {"Foss"} 
+		060 = {"Gantner"} 
+		062 = {"George W. Ingram"} 
+		063 = {"Ira Jeffery"} 
+		065 = {"Lee Fox"} 
+		066 = {"Amesbury"} 
+		068 = {"Bates"}
+		069 = {"Blessman"}
+		070 = {"Joseph E. Campbell"}
+		#052 = {"Bull"}			#HMS Bentinck 
+		#055 = {"Donaldson"}		# HMS Byard
+		#058 = {"Formore"} 		# HMS Calder
+		#061 = {"Thomas J. Gary"}  #HMS Duckworth
+		#064 = {"Lamons"} 		#HMS Duff
+		#067 = {"Essington"}  	# HMS Essington
+		#073 = {"McAnn"}			# HMS Balfour
+		#074 = {"Ebert"}			# HMS Bentley
+		#075 = {"Eisele"}		# HMS Bickerton
+		#076 = {"Liddle"}		# HMS Bligh
+		#077 = {"Straub"}		# HMS Braithwaite
+		#078 = {"Bullen"}		# HMS Bullen
+		#079 = {"Byron"}			# HMS Byron
+		153 = {"Reuben James"}
+		154 = {"Sims"}
+		155 = {"Hopping"}
+		156 = {"Reeves"}
+		157 = {"Fechteler"}
+		158 = {"Chase"}         
+		159 = {"Laning"}
+		160 = {"Loy"}
+		161 = {"Barber"}
+		198 = {"Lovelace"}
+		199 = {"Manning"}
+		200 = {"Neuendorf"}
+		201 = {"James E. Craig"}
+		202 = {"Eichenberger"}
+		203 = {"Thomason"}
+		204 = {"Jordan"}
+		205 = {"Newman"}
+		206 = {"Liddle"}
+		207 = {"Kephart"}
+		208 = {"Cofer"}
+		209 = {"Lloyd"}
+		210 = {"Otter"}
+		211 = {"Hubbard"}
+		212 = {"Hayter"}
+		213 = {"William T. Powell"}
+		214 = {"Scott"}
+		215 = {"Burke"}
+		216 = {"Enright"}
+		217 = {"Coolbaugh"}
+		218 = {"Darby"}
+		219 = {"J. Douglas Blackwood"}
+		220 = {"Francis M. Robinson"}
+		221 = {"Solar"}
+		222 = {"Fowler"}
+		223 = {"Spangenberg"}
+		575 = {"Ahrens"}
+		576 = {"Barr"}
+		577 = {"Alexander J. Luke"}
+		578 = {"Robert I. Paine"}
+		633 = {"Foreman"}
+		634 = {"Whitehurst"}
+		635 = {"England"}
+		636 = {"Witter"}
+		637 = {"Bowers"}
+		638 = {"Willmarth"}
+		639 = {"Gendreau"}
+		640 = {"Fieberling"}
+		641 = {"William C. Cole"}
+		642 = {"Paul G. Baker"}
+		643 = {"Damon M. Cummings"}
+		644 = {"Vammen"}
+		665 = {"Jenks"}
+		666 = {"Durik"}
+		667 = {"Wiseman"}
+		675 = {"Weber"}
+		676 = {"Schmitt"}
+		677 = {"Frament"}
+		678 = {"Harmon"}
+		679 = {"Greenwood"}
+		680 = {"Loeser"}
+		681 = {"Gillette"}
+		682 = {"Underhill"}
+		683 = {"Henry R. Kenyon"}
+		693 = {"Bull"}
+		694 = {"Bunch"}
+		695 = {"Rich"}
+		696 = {"Spangler"}
+		697 = {"George"}
+		698 = {"Raby"}
+		699 = {"Marsh"}
+		700 = {"Currier"}
+		701 = {"Osmus"}
+		702 = {"Earl V. Johnson"}
+		703 = {"Holton"}
+		704 = {"Cronin"}
+		705 = {"Frybarger"}
+		789 = {"Tatum"}
+		790 = {"Borum"}
+		791 = {"Maloy"}
+		792 = {"Haines"}
+		793 = {"Runels"}
+		794 = {"Hollis"}
+		795 = {"Gunason"}
+		796 = {"Major"}
+		797 = {"Weeden"}
+		798 = {"Varian"}
+		799 = {"Scroggins"}
+		800 = {"Jack W. Wilke"}
+		## Cannon Class
+		099 = {"Cannon"}
+		100 = {"Christopher"}
+		101 = {"Alger"}
+		102 = {"Thomas"}
+		103 = {"Bostwick"}
+		104 = {"Breeman"}
+		105 = {"Burrows"}
+		112 = {"Carter"}
+		113 = {"Clarence L. Evans"}
+		162 = {"Levy"}
+		163 = {"McConnell"}
+		164 = {"Osterhaus"}
+		165 = {"Parks"}
+		166 = {"Baron"}
+		167 = {"Acree"}
+		168 = {"Amick"}
+		169 = {"Atherton"}
+		170 = {"Booth"}
+		171 = {"Carroll"}
+		172 = {"Cooner"}
+		173 = {"Eldridge"}
+		174 = {"Marts"}
+		175 = {"Pennewill"}
+		176 = {"Micka"}
+		177 = {"Reybold"}
+		178 = {"Herzog"}
+		179 = {"McAnn"}
+		180 = {"Trumpeter"}
+		181 = {"Straub"}
+		182 = {"Gustafson"}
+		183 = {"Samuel S. Miles"}
+		184 = {"Wesson"}
+		185 = {"Riddle"}
+		186 = {"Swearer"}
+		187 = {"Stern"}
+		188 = {"O'Neill"}
+		189 = {"Bronstein"}
+		190 = {"Baker"}
+		191 = {"Coffman"}
+		192 = {"Eisner"}
+		193 = {"Garfield Thomas"}
+		194 = {"Wingfield"}
+		195 = {"Thornhill"}
+		196 = {"Rinehart"}
+		197 = {"Roche"}
+		739 = {"Bangust"}
+		740 = {"Waterman"}
+		741 = {"Weaver"}
+		742 = {"Hilbert"}
+		743 = {"Lamons"}
+		744 = {"Kyne"}
+		745 = {"Snyder"}
+		746 = {"Hemminger"}
+		747 = {"Bright"}
+		748 = {"Tills"}
+		749 = {"Roberts"}
+		750 = {"McClelland"}
+		763 = {"Cates"}
+		764 = {"Gandy"}
+		765 = {"Earl K Olsen"}
+		766 = {"Slater"}
+		767 = {"Oswald"}
+		768 = {"Ebert"}
+		769 = {"Neal A. Scott"}
+		770 = {"Muir"}
+		771 = {"Sutton"}
+        ## Edsall Class##
+		129 = {"Edsall"}
+		130 = {"Jacob Jones"}
+		131 = {"Hammann"}
+		132 = {"Robert E. Peary"}
+		133 = {"Pillsbury"}
+		134 = {"Pope"}
+		135 = {"Flaherty"}
+		136 = {"Frederick C. Davis"}
+		137 = {"Albert W. Grant"}
+		138 = {"Herbert C. Jones"}
+		139 = {"Douglas L. Howard"}
+		140 = {"Farquhar"}
+		141 = {"JRY Blakely"}
+		142 = {"Hill"}
+		143 = {"Fessenden"}
+		144 = {"Fiske"}
+		145 = {"Frost"}
+		146 = {"Huse"}
+		147 = {"Inch"}
+		148 = {"Blair"}
+		149 = {"Brough"}
+		150 = {"Chatelaine"}
+		151 = {"Neunzer"}
+		152 = {"Poole"}
+		238 = {"Peterson"}
+		239 = {"Stewart"}
+		240 = {"Sturtevant"}
+		241 = {"Moore"}
+		242 = {"Keith"}
+		243 = {"Tomich"}
+		244 = {"J Richard Ward"}
+		245 = {"Otterstetter"}
+		246 = {"Sloat"}
+		247 = {"Snowden"}
+		248 = {"Stanton"}
+		249 = {"Swasey"}
+		250 = {"Marchand"}
+		251 = {"Hurst"}
+		252 = {"Camp"}
+		253 = {"Howard D Crow"}
+		254 = {"Pettit"}
+		255 = {"Picketts"}
+		316 = {"Sellstrom"}
+		317 = {"Harveston"}
+		318 = {"Joyce"}
+		319 = {"Kirkpatrick"}
+		320 = {"Leopold"}
+		321 = {"Menges"}
+		322 = {"Mosley"}
+		323 = {"Newell"}
+		324 = {"Pride"}
+		325 = {"Falgout"}
+		326 = {"Thomas J. Gary"}
+		327 = {"Brister"}
+		328 = {"Finch"}
+		329 = {"Kretchmer"}
+		330 = {"O'Reilly"}
+		331 = {"Koiner"}
+		332 = {"Price"}
+		333 = {"Strickland"}
+		334 = {"Forster"}
+		335 = {"Daniel"}
+		336 = {"Roy O. Hale"}
+		337 = {"Dale W. Peterson"}
+		338 = {"Martin H. Ray"}
+		382 = {"Ramsden"}
+		383 = {"Mills"}
+		384 = {"Rhodes"}
+		385 = {"Richey"}
+		386 = {"Savage"}
+		387 = {"Vance"}
+		388 = {"Lansing"}
+		389 = {"Durant"}
+		390 = {"Calcaterra"}
+		391 = {"Chambers"}
+		392 = {"Merrill"}
+		393 = {"Haverfield"}
+		394 = {"Swenning"}
+		395 = {"Willis"}
+		396 = {"Janssen"}
+		397 = {"Wilhoite"}
+		398 = {"Cockrill"}
+		399 = {"Stockdale"}
+		400 = {"Hissem"}
+		401 = {"Holder"}
+		## Rudderow Class DE##
+		224 = {"Rudderow"}
+		225 = {"Day"}
+		230 = {"Chaffee"}
+		231 = {"Hodges"}
+		579 = {"Riley"}
+		580 = {"Leslie LB. Knox"}
+		581 = {"McNulty"}
+		582 = {"Metivier"}
+		583 = {"George A. Johnson"}
+		584 = {"Charles J. Kimmel"}
+		585 = {"Daniel A. Joy"}
+		586 = {"Lough"}
+		587 = {"Thomas F Nickel"}
+		588 = {"Peiffer"}
+		589 = {"Tinsman"}
+		684 = {"DeLong"}
+		685 = {"Coates"}
+		686 = {"Eugene E. Elmore"}
+		706 = {"Holt"}
+		707 = {"Jobb"}
+		708 = {"Parle"}
+		709 = {"Bray"}
+		## John C Butler Class DE##
+		339 = {"John C. Butler"}
+		340 = {"O'Flaherty"}
+		341 = {"Raymond"}
+		342 = {"Richard W. Suesens"}
+		343 = {"Abercrombie"}
+		344 = {"Oberrender"}
+		345 = {"Robert Brazier"}
+		346 = {"Edwin A. Howard"}
+		347 = {"Jesse Rutherford"}
+		348 = {"Key"}
+		349 = {"Gentry"}
+		350 = {"Traw"}
+		351 = {"Maurice J. Manuel"}
+		352 = {"Naifeh"}
+		353 = {"Doyle C. Barnes"}
+		354 = {"Kenneth M Willett"}
+		355 = {"Jaccard"}
+		356 = {"Lloyd E. Acree"}
+		357 = {"George E. Davis"}
+		358 = {"Mack"}
+		359 = {"Woodson"}
+		360 = {"Johnnie Hutchins"}
+		361 = {"Walton"}
+		362 = {"Rolf"}
+		363 = {"Pratt"}
+		364 = {"Rombach"}
+		365 = {"McGinty"}
+		366 = {"Alvin C. Cockrell"}
+		367 = {"French"}
+		368 = {"Cecil J. Doyle"}
+		369 = {"Thaddeus Parker"}
+		370 = {"John L. Williamson"}
+		371 = {"Presley"}
+		372 = {"Williams"}
+		402 = {"Richard S. Bull"}
+		403 = {"Richard M. Rowell"}
+		404 = {"Eversole"}
+		405 = {"Dennis"}
+		406 = {"Edmonds"}
+		407 = {"Shelton"}
+		408 = {"Straus"}
+		409 = {"La Prade"}
+		410 = {"Jack Miller"}
+		411 = {"Stafford"}
+		412 = {"Walter C. Wann"}
+		413 = {"Samuel B. Roberts"}
+		414 = {"LeRay Wilson"}
+		415 = {"Lawrence C. Taylor"}
+		416 = {"Melvin R. Nawman"}
+		417 = {"Oliver Mitchell"}
+		418 = {"Tabberer"}
+		419 = {"Robert F. Keller"}
+		420 = {"Leland E. Thomas"}
+		421 = {"Chester T. O'Brien"}
+		422 = {"Douglas A. Munro"}
+		423 = {"Dufilho"}
+		424 = {"Haas"}
+		438 = {"Corbesier"}
+		439 = {"Conklin"}
+		440 = {"McCoy Reynolds"}
+		441 = {"William Seiverling"}
+		442 = {"Ulvert M. Moore"}
+		443 = {"Kendall C. Campbell"}
+		444 = {"Goss"}
+		445 = {"Grady"}
+		446 = {"Charles E. Brannon"}
+		447 = {"Albert T. Harris"}
+		448 = {"Cross"}
+		449 = {"Hanna"}
+		450 = {"Joseph E. Connolly"}
+		508 = {"Gilligan"}
+		509 = {"Formoe"}
+		510 = {"Heyliger"}
+		531 = {"Edward H. Allen"}
+		532 = {"Tweedy"}
+		533 = {"Howard F. Clark"}
+		534 = {"Silverstein"}
+		535 = {"Lewis"}
+		536 = {"Bivin"}
+		537 = {"Rizzi"}
+		538 = {"Osberg"}
+		539 = {"Wagner"}
+		540 = {"Vandivier"}
+	}
+}
+
+### MINELAYER NAMES###
+USA_MINELAYERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	
+	prefix = "USS "							
+	fallback_name = "Minelayer DM-%d"
+
+	ordered = {
+		# Stribling Class DM
+		01 = {"Stribling"}
+		02 = {"Murray"}
+		03 = {"Israel"}
+		04 = {"Luce"}
+		05 = {"Maury"}
+		06 = {"Lansdale"}
+		07 = {"Mahan"}
+		08 = {"Hart"}
+		09 = {"Ingraham"}
+		10 = {"Ludlow"}
+		11 = {"Anthony"}
+		12 = {"Burns"}
+		13 = {"Sproston"}
+		14 = {"Rizal"}
+		15 = {"Gamble"}
+		16 = {"Ramsay"}
+		17 = {"Montgomery"}
+		18 = {"Breese"}
+		# Tracy Class
+		19 = {"Tracy"}
+		20 = {"Preble"}
+		21 = {"Sicard"}
+		22 = {"Pruitt"}
+		#Robert H. Smith Class DM
+		23 = {"Robert H. Smith"}
+		24 = {"Thomas E. Fraser"}
+		25 = {"Shannon"}
+		26 = {"Harry F. Bauer"}
+		27 = {"Adams"}
+		28 = {"Tolman"}
+		29 = {"Henry A. Wiley"}
+		30 = {"Shea"}
+		31 = {"J. William Ditter"}
+		32 = {"Lindsey"}
+		33 = {"Gwin"}
+		34 = {"Aaron Ward"}
+	}
+}
+
+
+### MINELAYER NAMES###
+USA_CRUISER_MINELAYERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_LARGE_MINELAYERS
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	
+	prefix = "USS "							
+	fallback_name = "Minelayer CM-%d"
+
+	ordered = {
+		# Cruiser Minelayers
+		01 = {"Baltimore"}
+		02 = {"Tahoe"}
+		03 = {"Aroostook"}
+		04 = {"Oglala"}
+		05 = {"Terror"}
+		06 = {"Catskill"}
+		07 = {"Ozark"}
+		08 = {"Keokuk"}
+		09 = {"Monadnock"}
+		10 = {"Miantonomah"}
+		11 = {"Salem"}
+		12 = {"Weehawken"}
+		# Chimo Class Auxillary Minelayers
+		13 = {"Chimo"} 					# Ex Col. Charles W Bundy
+		14 = {"Planter"} 				# Ex Col. George Ricker
+		15 = {"Barricade"} 				# Ex Col. John Storey
+		# Buttress Class AM
+		16 = {"Buttress"}		
+		# Chimo Class AM 
+		17 = {"Barbicon"} 				# Ex Col. George Armistead
+		18 = {"Bastion"} 				# Ex Col. Henry J. Hunt
+		19 = {"Obstructor"} 				# Ex 1LT William G Sylvester
+		20 = {"Picket"} 					# Ex Gen. Henry Knox
+		21 = {"Trapper"} 				# ex-MG Arthur Murray
+		# Camache Class AM
+		22 = {"Camanche"} 				# ex-BG Royal T Frank
+		23 = {"Canonicus"} 				# ex-MG Erasmus Weaver
+		24 = {"Col. Horace F. Spurgin"}	# Renamed "Miantonomah"
+		25 = {"Maj. Samuel Ringgold"}	# Renamed "Monadnock"
+		26 = {"Nausett"} 				# ex-MG Wallace F Randolph
+		27 = {"Puritan"} 				# Ex-Col. Alfred A Maybach
+	}
+}
+# Army Minelayers 
+		#"BG Henry L Abbott" "Col. George Reacher" "Gen. Samuel L Mills"     
+		# Older Minelayer Names
+		#"Shawmut" "Lancaster" "Pensacola" "Galena" "Marion" "Mohican" "Quinnebaug" "Swatara" "Boston" "Chicago" "Baltimore" "San Francisco" "Tahoe" "Yosemite" "Montgomery" "Anniston" 
+		#"Minneapolis" "Olympia" "New Orleans" "Albany" "Des Moines" "Tacoma"
+
+### MINESWEEPER NAMES###
+USA_MINESWEEPER_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	
+	prefix = "USS "							
+	fallback_name = "Minelayer DMS-%d"
+
+	ordered = {
+
+		# Dorsey Class
+		01 = {"Dorsey"}
+		02 = {"Lamberton"}
+		03 = {"Boggs"}
+		04 = {"Elliot"}
+		05 = {"Palmer"}
+		06 = {"Hogan"}
+		07 = {"Howard"}
+		08 = {"Stansbury"}
+		# Chandler Class
+		09 = {"Chandler"}
+		10 = {"Southard"}
+		11 = {"Hovey"}
+		12 = {"Long"}
+		13 = {"Hopkins"}
+		14 = {"Zane"}
+		15 = {"Wasmuth"}
+		16 = {"Trever"}
+		17 = {"Perry"}
+		#Dorsey Class Continued
+		18 = {"Hamilton"}
+		# DMS Continued
+		19 = {"Ellyson"}
+		20 = {"Hambleton"}
+		21 = {"Rodman"}
+		22 = {"Emmons"}
+		23 = {"Maccomb"}
+		24 = {"Forrest"}
+		25 = {"Fitch"}
+		26 = {"Hobson"}
+		27 = {"Jeffers"}
+		28 = {"Harding"}
+		29 = {"Butler"}
+		30 = {"Gherardi"}
+		31 = {"Mervine"}
+		32 = {"Quick"}
+		33 = {"Carmick"}
+		34 = {"Doyle"}
+		35 = {"Endicott"}
+		36 = {"McCook"}
+		37 = {"Davison"}
+		38 = {"Thompson"}
+		39 = {"Cowie"}
+		40 = {"Knight"}
+		41 = {"Doran"}
+		42 = {"Earle"}
+	}
+}
+
+### SUBMARINES ###
+USA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "USS "							
+	fallback_name = "Submarine SS-%d"	
+
+	ordered = {
+		#028 = {"H-1"}
+		#029 = {"H-2"}
+		#030 = {"H-3"}
+		#147 = {"H-4"}			#Intended for Russia. 
+		#148 = {"H-5"}
+		#149 = {"H-6"}
+		#150 = {"H-7"}
+		#151 = {"H-8"}
+		#152 = {"H-9"}
+		## O Class
+		062 = {"O-1"}
+		063 = {"O-2"}
+		064 = {"O-3"}
+		065 = {"O-4"}
+		066 = {"O-5"}
+		067 = {"O-6"}
+		068 = {"O-7"}
+		069 = {"O-8"}
+		070 = {"O-9"}
+		071 = {"O-10"}
+		## R Class
+		078  = {"R-1"}
+		079 = {"R-2"}
+		080 = {"R-3"}
+		081 = {"R-4"}
+		082 = {"R-5"}
+		083 = {"R-6"}
+		084 = {"R-7"}
+		085 = {"R-8"}
+		086 = {"R-9"}
+		087 = {"R-10"}
+		088 = {"R-11"}
+		089 = {"R-12"}
+		090 = {"R-13"}
+		091 = {"R-14"}
+		092 = {"R-15"}
+		093 = {"R-16"}
+		094 = {"R-17"}
+		095 = {"R-18"}
+		096 = {"R-19"}
+		097 = {"R-20"}
+		#098 = {"R-21"}
+		#099 = {"R-22"}
+		#100 = {"R-23"}
+		#101 = {"R-24"}
+		#102 = {"R-25"}
+		#103 = {"R-26"}
+		#104 = {"R-27"}
+		# S Class
+		105 = {"S-1"}
+		#106 = {"S-2"}
+		107 = {"S-3"}
+		#109 = {"S-4"}
+		#110 = {"S-5"}
+		111 = {"S-6"}
+		112 = {"S-7"}
+		113 = {"S-8"}
+		114 = {"S-9"}
+		115 = {"S-10"}
+		116 = {"S-11"}
+		117 = {"S-12"}
+		118 = {"S-13"}
+		119 = {"S-14"}
+		120 = {"S-15"}
+		121 = {"S-16"}
+		122 = {"S-17"}
+		123 = {"S-18"}
+		124 = {"S-19"}
+		125 = {"S-20"}
+		126 = {"S-21"}
+		127 = {"S-22"}
+		128 = {"S-23"}
+		129 = {"S-24"}
+		130 = {"S-25"}
+		131 = {"S-26"}
+		132 = {"S-27"}
+		133 = {"S-28"}
+		134 = {"S-29"}
+		135 = {"S-30"}
+		136 = {"S-31"}
+		137 = {"S-32"}
+		138 = {"S-33"}
+		139 = {"S-34"}
+		140 = {"S-35"}
+		141 = {"S-36"}
+		142 = {"S-37"}
+		143 = {"S-38"}
+		144 = {"S-39"}
+		145 = {"S-40"}
+		146 = {"S-41"}
+		153 = {"S-42"}
+		154 = {"S-43"}
+		155 = {"S-44"}
+		156 = {"S-45"}
+		157 = {"S-46"}
+		158 = {"S-47"}
+		159 = {"S-48"}
+		#160 = {"S-49"}
+		#161 = {"S-50"}
+		#162 = {"S-51"}		# Sunk 1921
+		# V-boats
+		163 = {"Barracuda"}
+		164 = {"Bass"}
+		165 = {"Bonita"}
+		166 = {"Argonaut"}
+		167 = {"Narwhal"}
+		168 = {"Nautilus"}
+		169 = {"Dolphin"}
+		170 = {"Cachalot"}
+		171 = {"Cuttlefish"}
+		## Porpoise Class
+		172 = {"Porpose"}
+		173 = {"Pike"}
+		174 = {"Shark"}
+		175 = {"Tarpon"}
+		176 = {"Perch"}
+		177 = {"Pickerel"}
+		178 = {"Permit"}
+		179 = {"Plunger"}
+		180 = {"Pollack"}
+		181 = {"Pompano"}
+		## Salmon Class
+		182 = {"Salmon"}
+		183 = {"Seal"}
+		184 = {"Skipjack"}
+		185 = {"Snapper"}
+		186 = {"Stingray"}
+		187 = {"Sturgeon"}
+		## Sargo Class
+		188 = {"Sargo"}
+		189 = {"Saury"}
+		190 = {"Spearfish"}
+		191 = {"Sculpin"}
+		192 = {"Squalus"} 			# Renamed USS Sailfish in 1940
+		193 = {"Swordfish"}
+		194 = {"Seadragon"}
+		195 = {"Sealion"}
+		196 = {"Searaven"}
+		197 = {"Seawolf"}
+		## Tambor Class
+		198 = {"Tambor"}
+		199 = {"Tautog"}
+		200 = {"Thresher"}
+		201 = {"Triton"}
+		202 = {"Trout"}
+		203 = {"Tuna"}
+		# Mackerel Class
+		204 = {"Mackerel"}
+		205 = {"Marlin"}
+		# Gar Class
+		206 = {"Gar"}
+		207 = {"Grampus"}
+		208 = {"Grayback"}
+		209 = {"Grayling"}
+		210 = {"Grenadier"}
+		211 = {"Gudgeon"}
+		# Gato Class
+		212 = {"Gato"}
+		213 = {"Greenling"}
+		214 = {"Grouper"}
+		215 = {"Growler"}
+		216 = {"Grunion"}
+		217 = {"Guardfish"}
+		218 = {"Albacore"}
+		219 = {"Amberjack"}
+		220 = {"Barb"}
+		221 = {"Blackfish"}
+		222 = {"Bluefish"}
+		223 = {"Bonefish"}
+		224 = {"Cod"}
+		225 = {"Cero"}
+		226 = {"Corvina"}
+		227 = {"Darter"}
+		228 = {"Drum"}
+		229 = {"Flying Fish"}
+		230 = {"Finback"}
+		231 = {"Haddock"}
+		232 = {"Halibut"}
+		233 = {"Herring"}
+		234 = {"Kingfish"}
+		235 = {"Shad"}
+		236 = {"Silversides"}
+		237 = {"Trigger"}
+		238 = {"Wahoo"}
+		239 = {"Whale"}
+		240 = {"Angler"}
+		241 = {"Bashaw"}
+		242 = {"Bluegill"}
+		243 = {"Bream"}
+		244 = {"Cavalla"}
+		245 = {"Cobia"}
+		246 = {"Croaker"}
+		247 = {"Dace"}
+		248 = {"Dorado"}
+		249 = {"Flasher"}
+		250 = {"Flier"}
+		251 = {"Flounder"}
+		252 = {"Gabilan"}
+		253 = {"Gunnel"}
+		254 = {"Gurnard"}
+		255 = {"Haddo"}
+		256 = {"Hake"}
+		257 = {"Harder"}
+		258 = {"Hoe"}
+		259 = {"Jack"}
+		260 = {"Lapon"}
+		261 = {"Mingo"}
+		262 = {"Muskallunge"}
+		263 = {"Paddle"}
+		264 = {"Pargo"}
+		265 = {"Peto"}
+		266 = {"Pogy"}
+		267 = {"Pompon"}
+		268 = {"Puffer"}
+		269 = {"Rasher"}
+		270 = {"Raton"}
+		271 = {"Ray"}
+		272 = {"Redfin"}
+		273 = {"Robalo"}
+		274 = {"Rock"}
+		275 = {"Runner"}
+		276 = {"Sawfish"}
+		277 = {"Scamp"}
+		278 = {"Scorpion"}
+		279 = {"Snook"}
+		280 = {"Steelhead"}
+		281 = {"Sunfish"}
+		282 = {"Tunny"}
+		283 = {"Tinosa"}
+		284 = {"Tullibee"}
+		361 = {"Golet"}
+		362 = {"Guavina"}
+		363 = {"Guitarro"}
+		364 = {"Hammerhead"}
+		# Balao Class
+		285 = {"Balao"}
+		286 = {"Billfish"}
+		287 = {"Bowfin"}
+		288 = {"Cabrilla"}
+		289 = {"Capelin"}
+		290 = {"Cisco"}
+		291 = {"Crevalle"}
+		292 = {"Devilfish"}
+		293 = {"Dragonet"}
+		294 = {"Escolar"}
+		295 = {"Hackleback"}
+		296 = {"Lancetfish"}
+		297 = {"Ling"}
+		298 = {"Lionfish"}
+		299 = {"Manta"}
+		300 = {"Moray"}
+		301 = {"Roncador"}
+		302 = {"Sabalo"}
+		303 = {"Sablefish"}
+		304 = {"Seahorse"}
+		305 = {"Skate"}
+		306 = {"Tang"}
+		307 = {"Tilefish"}
+		308 = {"Apogon"}
+		309 = {"Aspro"}
+		310 = {"Batfish"}
+		311 = {"Archerfish"}
+		312 = {"Burrfish"}
+		313 = {"Perch (SS-313)"}
+		314 = {"Shark (SS-314)"}
+		315 = {"Sealion (SS-315)"}
+		316 = {"Barbel"}
+		317 = {"Barbero"}
+		318 = {"Baya"}
+		319 = {"Becuna"}
+		320 = {"Bergall"}
+		321 = {"Besugo"}
+		322 = {"Blackfin"}
+		323 = {"Caiman"}
+		324 = {"Blenny"}
+		325 = {"Blower"}
+		326 = {"Blueback"}
+		327 = {"Boarfish"}
+		328 = {"Charr"}
+		329 = {"Chub"}
+		330 = {"Brill"}
+		331 = {"Bugara"}
+		332 = {"Bullhead"}
+		333 = {"Bumper"}
+		334 = {"Cabezon"}
+		335 = {"Dentuda"}
+		336 = {"Capitaine"}
+		337 = {"Carbonero"}
+		338 = {"Carp"}
+		339 = {"Catfish"}
+		340 = {"Entemedor"}
+		341 = {"Chivo"}
+		342 = {"Chopper"}
+		343 = {"Clamagore"}
+		344 = {"Cobbler"}
+		345 = {"Cochino"}
+		346 = {"Corporal"}
+		347 = {"Cubera"}
+		348 = {"Cusk"}
+		349 = {"Diodon"}
+		350 = {"Dogfish"}
+		351 = {"Greenfish"}
+		352 = {"Halfbeak"}
+		353 = {"Dugong"}
+		354 = {"Eel"}
+		355 = {"Espada"}
+		356 = {"Jawfish"}
+		357 = {"Ono"}
+		358 = {"Garlopa"}
+		359 = {"Garrupa"}
+		360 = {"Goldring"}
+		365 = {"Hardhead"}
+		366 = {"Hawkbill"}
+		367 = {"Icefish"}
+		368 = {"Jallao"}
+		369 = {"Kete"}
+		370 = {"Kraken"}
+		371 = {"Lagarto"}
+		372 = {"Lamprey"}
+		373 = {"Lizardfish"}
+		374 = {"Loggerhead"}
+		375 = {"Macabi"}
+		376 = {"Mapiro"}
+		377 = {"Menhaden"}
+		378 = {"Mero"}
+		379 = {"Needlefish"}
+		380 = {"Nerka"}
+		381 = {"Sand Lance"}
+		382 = {"Picuda"}
+		383 = {"Pampanito"}
+		384 = {"Parche"}
+		385 = {"Bang"}
+		386 = {"Pilotfish"}
+		387 = {"Pintado"}
+		388 = {"Pipefish"}
+		389 = {"Piranha"}
+		390 = {"Plaice"}
+		391 = {"Pomfret"}
+		392 = {"Sterlet"}
+		393 = {"Queenfish"}
+		394 = {"Razorback"}
+		395 = {"Redfish"}
+		396 = {"Ronquil"}
+		397 = {"Scabbardfish"}
+		398 = {"Segundo"}
+		399 = {"Sea Cat"}
+		400 = {"Sea Devil"}
+		401 = {"Sea Dog"}
+		402 = {"Sea Fox"}
+		403 = {"Atule"}
+		404 = {"Spikefish"}
+		405 = {"Sea Owl"}
+		406 = {"Sea Poacher"}
+		407 = {"Sea Robin"}
+		408 = {"Sennet"}
+		409 = {"Piper"}
+		410 = {"Threadfin"}
+		411 = {"Spadefish"}
+		412 = {"Trepang"}
+		413 = {"Spot"}
+		414 = {"Springer"}
+		415 = {"Stickleback"}
+		416 = {"Tiru"}
+		425 = {"Trumpetfish"}
+		426 = {"Tusk"}
+		427 = {"Turbot"}
+		428 = {"Ulua"}
+		429 = {"Unicorn"}
+		430 = {"Vendace"}
+		431 = {"Walrus"}
+		432 = {"Whitefish"}
+		433 = {"Whiting"}
+		434 = {"Wolffish"}
+		464 = {"Chicolar"}
+		# Tench Class
+		417 = {"Tench"}
+		418 = {"Thornback"}
+		419 = {"Tigrone"}
+		420 = {"Tirante"}
+		421 = {"Trutta"}
+		422 = {"Toro"}
+		423 = {"Torsk"}
+		424 = {"Quillback"}
+		435 = {"Corsair"}
+		436 = {"Unicorn"}
+		437 = {"Walrus"}
+		475 = {"Rainbow"}
+		476 = {"Runner"}
+		477 = {"Conger"}
+		478 = {"Cutlass"}
+		479 = {"Diablo"}
+		480 = {"Medregal"}
+		481 = {"Requin"}
+		482 = {"Irex"}
+		483 = {"Sea Leopard"}
+		484 = {"Odax"}
+		485 = {"Sirago"}
+		486 = {"Pomodon"}
+		487 = {"Remora"}
+		488 = {"Sarda"}
+		489 = {"Spinax"}
+		490 = {"Volador"}
+		491 = {"Pompano"}
+		492 = {"Grayling"}
+		493 = {"Needlefish"}
+		494 = {"Sculpin"}
+		522 = {"Amberjack"}
+		523 = {"Grampus"}
+		524 = {"Pickerel"}
+		525 = {"Grenadier"}
+		526 = {"Dorado"}
+		527 = {"Comber"}
+		528 = {"Sea Panther"}
+		529 = {"Tiburon"}
+		# Unifnished
+		#"Kinn" "Springeren"
+	}
+}
+
+### THEME: U.S. STATES ###
+USA_STATES = {
+	name = NAME_THEME_STATES
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_carrier ship_hull_submarine }
+	
+	prefix = "USS "							
+
+	unique = {
+		"Alabama" "Arizona" "Arkansas" "California" "Colorado" "Connecticut" "Delaware" "Florida" "Georgia" "Indiana" "Idaho" "Iowa" "Illinois" "Kansas" "Kentucky"   
+		"Louisiana" "Maine" "Maryland" "Massachusetts" "Michigan" "Minnesota" "Mississippi" "Missouri" "Montana" 
+		"Nebraska" "Nevada" "New Hampshire" "New Jersey" "New Mexico" "New York" "North Carolina" "North Dakota" "Ohio" "Oklahoma" "Oregon"
+		"Pennsylvania" "Rhode Island" "South Carolina" "South Dakota" "Tennessee" "Texas" "Utah" "Vermont" "Virginia" "Washington" "West Virginia" "Wisconsin" "Wyoming" 
+	}
+}
+
+## THEME: U.S. CITIES ###
+USA_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_submarine }
+	
+	prefix = "USS "							
+
+	unique = {
+		"Washington" "New York City" "Chicago" "Los Angeles" "San Francisco" "Detroit" "Boston" "Philadelphia" "Pittsburgh" "Cleveland" "St. Louis" "Baltimore" "Kansas City" "Milwaukee" "New Orleans" "Cincinnati" "Miami" 
+		"Indianapolis" "Seattle" "Dallas" "Atlanta" "Buffalo" "Minneapolis" "Denver" "Omaha" "San Diego" "Nashville" "Oklahoma City" "Louisville" "Phoenix" "Portland" "Rochester" 
+		"Albany" "Albuquerque" "Alexandria" "Amsterdam" "Annapolis" "Anniston" "Asheville" "Astoria" "Augusta" "Baton Rouge" "Biloxi" "Birmingham" "Boise" "Bremerton" "Bridgeport" "Brooklyn" "Cambridge" "Cheyenne" 
+		"Charleston" "Charlotte" "Chattanooga" "Chester" "Columbia" "Columbus" "Concord" "Corpus Christi" "Dayton" "Des Moines" "Duluth" "Fall River" "Fargo" "Flint" "Frederick" "Fresno" "Galena" "Galveston" "Gary" 
+		"Greenville" "Groton" "Hampton" "Hartford" "Helena" "Honolulu" "Houston" "Huntington" "Huron" "Jacksonville" "Jefferson City" "Juneau" "Key West" "La Jolla" "Lancaster" "Long Beach" "Little Rock" "Macon" 
+		"Manchester" "Marblehead" "Marion" "Memphis" "Missoula" "Mobile" "Mohican" "Montgomery" "Montpelier" "New Haven" "Newark" "Newport News" "Norfolk" "Northampton" "Oakland" "Olympia" "Oregon City" 
+		"Pasadena" "Pensacola" "Portsmouth" "Providence" "Pueblo" "Quincy" "Quinnebaug" "Raleigh" "Reno" "Richmond" "Roanoke" "St. Paul" "Salem" "Salt Lake City" "San Juan" "Santa Fe" "Saratoga" "Savannah" "Swatara" 
+		"Scranton" "Spokane" "Springfield" "Tacoma" "Tahoe" "Tallahassee" "Toledo" "Topeka" "Trenton" "Tucson" "Tulsa" "Tuscaloosa" "Vallejo" "Vicksburg" "Wichita" "Wilkes-Barre" "Wilmington" "Worcester" "Yosemite" 
+		"Youngstown"  
+	}
+}
+
+### THEME: HISTORICAL BATTLES ###
+USA_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { USA }
+
+	type = ship
+	
+	prefix = "USS "							
+	
+	unique = {
+		"Bunker Hill" "Valley Forge" "Princeton" "Lexington" "Saratoga" "Ticonderoga" "Bennington" "Vincennes" "Antietam" "Chancellorsville" "Gettysburg" "Shiloh" "Vicksburg" "Mobile Bay" "Lake Champlain" 
+		"Monterey" "San Jacinto" "Belleau Wood" "Cowpens" "Bataan" "Coral Sea" "Midway" "Leyte" "Tarawa" "Saipan" "Philippine Sea" "Iwo Jima" "Normandy"
+	}
+}
+
+### THEME: HISTORICAL LEADERS ###
+USA_LEADERS = {
+	name = NAME_THEME_LEADERS
+
+	for_countries = { USA }
+
+	type = ship
+	
+	prefix = "USS "							
+	
+	unique = {
+		"George Washington" "Abraham Lincoln" "Thomas Jefferson" "James Madison" "James Monroe" "John Adams" "Benjamin Franklin" "Ulysses S Grant" "Andrew Jackson" "Patrick Henry" "Woodrow Wilson" "John Marshall" 
+		"Ethan Allen" "Sam Houston" "Lafayette" "Von Steuben" "Alexander Hamilton" "Casimir Pulaski" "Lewis & Clark" "James K. Polk"  
+		"Thomas A Edison" "Nathan Hale" "Henry Clay" "Daniel Webster" "Tecumseh" "Daniel Boone" "Nathanael Greene" "Simon Bolivar" "Kamehameha" "George Washington Carver" "Francis Scott Key" "Mariano G Vallejo" 
+		"Will Rogers" "George Bancroft" "Theodore Roosevelt" "Franklin D Roosevelt" "George C Marshall" "Chester W Nimitz" "Dwight D Eisenhower" "Henry L Stimson" 
+	}
+}
+
+## THEME: FISH (HISTORICAL SUBMARINES) ###
+USA_BIRDS = {
+	name = NAME_THEME_BIRDS
+
+	for_countries = { USA }
+
+	type = ship
+	
+	prefix = "USS "							
+
+	unique = {
+		"Lapwing" "Owl" "Robin" "Swallow" "Tanager" "Cardinal" "Oriole" "Curlew" "Finch" "Heron" "Turkey" "Woodcock" "Quail" "Partridge" "Eider" "Avocet" "Lark" "Teal" "Kingfisher" "Pelican" "Falcon" "Osprey" "Seagull" "Tern" "Flamingo" 
+		"Penguin" "Swan" "Whippoorwill" "Bittern" "Sanderling" "Auk" "Chewink" "Cormorant" "Gannet" "Grebe" "Mallard" "Ortolan" "Peacock" "Pigeon" "Redwing" "Sandpiper" "Vireo" "Warbler" "Willet" 
+		"Canary" "Raven" "Broadbill" "Chickadee" "Nuthatch" "Pheasant" "Sheldrake" "Skylark" "Starling" "Condor" "Plover" "Goshawk" "Shrike"  
+	}
+}
+
+### THEME: BIRDS (HISTORICAL MINESWEEPERS) ###
+USA_FISH = {
+	name = NAME_THEME_FISH
+
+	for_countries = { USA }
+
+	type = ship
+	
+	prefix = "USS "							
+
+	unique = {
+		"Albacore" "Amberjack" "Angler" "Apogon" "Aspro" "Archerfish" "Atule" "Barracuda" "Bass" "Bonita" "Barb" "Blackfish" "Bluefish" "Bonefish" "Bashaw" "Bluegill" "Bream" "Balao" "Billfish" "Bowfin" "Batfish" "Burrfish" 
+		"Barbel" "Barbero" "Baya" "Becuna" "Bang" "Bergall" "Besugo" "Blackfin" "Blenny" "Blower" "Blueback" "Boarfish" "Brill" "Bugara" "Bullhead" "Bumper" "Cachalot" "Cuttlefish" "Cavalla" "Cobia" "Croaker" "Cod" "Cero" 
+		"Corvina" "Cabrilla" "Capelin" "Cisco" "Crevalle" "Caiman" "Charr" "Chub" "Cabezon" "Capitaine" "Carbonero" "Carp" "Catfish" "Chivo" "Chopper" "Clamagore" "Cobbler" "Cochino" "Corporal" "Cubera" "Cusk" "Conger" "Comber" 
+		"Dolphin" "Darter" "Drum" "Devilfish" "Dragonet" "Dentuda" "Diodon" "Dogfish" "Dugong" "Escolar" "Entemedor" "Eel" "Espada" "Flying Fish" "Finback" "Flasher" "Flier" "Flounder" 
+		"Gar" "Grampus" "Grayback" "Grayling" "Gato" "Greenling" "Grouper" "Growler" "Grunion" "Guardfish" "Gabilan" "Gunnel" "Gurnard" "Greenfish" "Garlopa" "Garrupa" "Goldring" "Golet" "Guavina" "Guitarro" 
+		"Haddock" "Halibut" "Herring""Haddo" "Hake" "Harder" "Hoe" "Hackleback" "Halfbeak" "Hammerhead" "Hardhead" "Hawkbill" "Icefish" "Irex" "Jack" "Jawfish" "Jallao" "Kete" "Kraken" "Kingfish" 
+		"Lapon" "Lancetfish" "Ling" "Lionfish" "Lagarto" "Lamprey" "Lizardfish" "Loggerhead" "Manta" "Moray" "Mingo" "Muskallunge" "Mackerel" "Marlin" "Macabi" "Mapiro" "Menhaden" "Mero" "Medregal" 
+		"Narwhal" "Nautilus" "Needlefish" "Nerka" "Ono" "Odax" "Porpoise" "Pike" "Perch" "Pickerel" "Pompano" "Paddle" "Pargo" "Peto" "Pogy" "Pompon" "Puffer" "Piper" "Rasher" "Picuda" "Pampanito" "Parche" "Pilotfish" "Pintado" 
+		"Pipefish" "Piranha" "Plaice" "Pomfret" "Pomodon" "Queenfish" "Quillback" "Raton" "Ray" "Redfin" "Robalo" "Rock" "Runner" "Roncador" "Razorback" "Redfish" "Ronquil" "Requin" "Remora" 
+		"Shark" "Salmon" "Seal" "Skipjack" "Snapper" "Stingray" "Sturgeon" "Sargo" "Saury" "Spearfish" "Sculpin" "Sailfish" "Swordfish" "Seadragon" "Sealion" "Searaven" "Seawolf" "Shad" "Silversides" "Sawfish" "Scamp" "Scorpion" 
+		"Snook" "Steelhead" "Sunfish" "Sabalo" "Sablefish" "Seahorse" "Skate" "Sand Lance" "Sterlet" "Scabbardfish" "Segundo" "Sea Cat" "Sea Devil" "Sea Dog" "Sea Fox" "Spikefish" "Sea Owl" "Sea Poacher" "Sea Robin" "Sennet" 
+		"Spadefish" "Spot" "Springer" "Stickleback" "Sea Leopard" "Sirago" "Sarda" "Spinax" "Sea Panther" "Springeren" "Tarpon" "Tambor" "Tautog" "Thresher" "Trout" "Tuna" "Tunny" "Tinosa" "Tullibee" "Tang" "Tilefish" "Threadfin" 
+		"Trepang" "Tiru" "Tench" "Thornback" "Tigrone" "Tirante" "Trutta" "Toro" "Torsk" "Trumpetfish" "Tusk" "Turbot" "Tiburon" "Ulua" "Vendace" "Wahoo" "Whale" "Walrus" "Whitefish" "Whiting" "Wolffish" 
+	}
+}
+
+########## CONFEDERATE SHIP NAMES ##################
+### CSA DESTROYER NAMES###
+CSA_DD_CONFEDERATE = {
+	name = NAME_THEME_CONFEDERATE_DESTROYERS
+
+	for_countries = { CSA USA }
+	can_use = {
+		OR = {
+			tag = CSA
+			has_completed_focus = USA_honor_the_confederacy
+		}
+	}
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "CSS "							
+	fallback_name = "Destroyer DD-%d"					
+
+	unique = {										
+		# CSA army leaders - starts with all the Major Generals not cashiered, then goes to prominent Brigadiers, then to Brigadiers that lost their lives.  
+		"J.E.B. Stuart" "Jubal Early" "Joseph Wheeler" "George Pickett" "Gustavus Smith" "W.H.F. Rooney Lee" "John Brown Gordon" "Joseph B. Kershaw" "Prince de Polignac" "Fitzhugh Lee" 
+		"Daniel S. Donelson" "Isaac Trimble" "John B. Magruder" "Henry Heth" "Robert Ransom" "G.W. Custis Lee" "John C. Breckinridge" "Patrick Cleburne" "William Dorsey Pender"
+		"Matthew Butler" "Cadmus M. Wilcox" "Robert Hoke" "Bryan Grimes" "Thomas Churchill" "William Mahone" "John C. Brown" "William Loring" "Sterling Price" "Thomas L. Rosser" 
+		"Lunsford L. Lomax" "Benjamin Cheatham" "Samuel Jones" "Richard H. Anderson" "John Porter McCown" "Bushrod Johnson" "James L. Kemper" "D.H. Hill" "Edward C. Walthall"
+		"Stephen D. Ramseur" "Jones M. Withers" "Thomas Hindman" "Lafayette McLaws" "Samuel Gibbs French" "Carter Stevenson" "John H. Forney" "Dabney Maury" "Martin L. Smith" 
+		"John G. Walker" "Edward Johnson" "Robert E. Rodes"	"William H.T. Walker" "John S. Bowen" "Jeremy F. Gilmer" "Howell Cobb" "John A. Wharton" "William T. Martin"
+		"Charles W. Field" "James Patton Anderson" "William B. Bate" "James F. Fagan" "Henry Clayton" "Pierre M.B. Young" "William W. Allen" "Edward Porter Alexander" 
+		"Matt Ransom" "William Barksdale" "Barnard E. Bee" "William P. Hardeman" "Thomas Alexander Harris" "John Adams" "George B. Anderson" "Lewis A. Armistead" "Tyree Bell" 
+		"States Rights Gist" "John Pegram" "Francis S. Bartow" "Adley H. Gladden" "Robert Hatton" "Charles S. Winder" "William E. Starke" "Henry Little" "Thomas R. Cobb" 
+		"Maxcy Gregg" "E.D. Tracy" "E.F. Paxton" "Lloyd Tighman" "Martin E. Green" "Rhichard B. Garnett" "Paul J. Semmes" "J.J. Pettigrew" "Preston Smith" "Benjamin H. Helm" 
+		"James Deshler" "Carnot Posey" "Alfred Mouton" "Thomas Green" "W.R. Scurry" "John M. Jones" "C.H. Stevens" "Samuel Benton" "John R Chambliss" "J.C. Saunders" 
+		"John Morgan" "Archibald C. Godwin" "John Dunnovant" "John Gregg" "Stephen Elliot" "Victor J Girardey" "Archibald Gracie" "Oscar F. Strahl" "H.B. Granberry" "James Dearing"
+	}
+}
+
+### CSA LIGHT CRUISER NAMES###
+CSA_CL_CONFEDERATE = {
+	name = NAME_THEME_CONFEDERATE_CL
+
+	for_countries = { CSA USA }
+	can_use = {
+		OR = {
+			tag = CSA
+			has_completed_focus = USA_honor_the_confederacy
+		}
+	}
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "CSS "							
+	fallback_name = "Light Cruiser CL-%d"					
+
+	unique = {										
+		# Confederate victories in ACW, listed in order of importance.
+		"First Manassas" "Fort Sumter" "First Winchester" "Gaine's Mill" "Second Manassas" "Fredericksburg" "Chancellorsville" "Chikamuaga" "The Wilderness" "Spotsylvania" 
+		"Cold Harbor" "Second Petersburg" "The Crater" "Mansfield" "Wilson's Creek" "Glorieta Pass" "Ball's Bluff" "Harper's Ferry" "Cedar Mountain" "Fort Wagner" 
+		"Kennesaw Mountain" "Port Republic" "Galveston" "Brice's Crossroads" "Second Winchester" "Chambersburg Raid" "Stuart's Ride" "Chusenahlah" "Valverde" "Yorktown" 
+		"Williamsburg" "Cross Keys" "Secessionville" "Glendale" "Manassas Station" "Richmond" "Mundordville" "Chickasaw Bayou" "Salem Church" "Brandy Station" 
+		"Ringgold Gap" "Olustee" "Okolona" "Fort Pillow" "Seven Pines" "Proctor's Creek" "New Market" "Totopotomoy Creek" "Trevilian Staion " "Lynchburg" "Monocacy Junstion" 
+		"Second Kernstown" "Ream's Station" "Johnsonville" "Big Bethel" "Front Royal" "First Murfreesboro" "Rappahannock Station" "Hartsville" "Parker's Cross Roads" 
+		"Thompson's Station" "Corydon" "Lebanon" "Second Memphis" "Kabletown" "Carthage" "Blackburn's Ford" "Lexington" "McDowell" "Princeton Court House" 
+		"Thoroughfare Gap" "Sherperdstown" "Newtonia" "Fort McAllister" "Charleston Harbor" "Grand Gulf" "Kock's Plantation" "Dandridge" "Dalton" "Paducah" "Plymouth" 
+		"Poison Spring" "Ware Bottom Church" "New Hope Church" "Pickett's Mill" "Cool Spring" 
+	}
+}
+
+### CSA HEAVY CRUISER NAMES###
+CSA_CA_CONFEDERATE = {
+	name = NAME_THEME_CONFEDERATE_CA
+
+	for_countries = { CSA USA }
+	can_use = {
+		OR = {
+			tag = CSA
+			has_completed_focus = USA_honor_the_confederacy
+		}
+	}
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "CSS "							
+	fallback_name = "Heavy Cruiser CA-%d"
+
+	unique = {
+		# Southern State cities.
+		"Birmingham" "New Orleans" "Miami" "Atlanta" "Charlotte" "Dallas" "Richmond" "Montgomery" "Houston" "Mobile" "Little Rock" "Baton Rouge" "Raleigh" "Jacksonville" "Vicksburg" 
+		"Nashville" "Ft Worth" "Pensacola" "Memphis" "Portsmouth" "San Antonio" "Knoxville" "Norfolk" "Tallahassee" "Lafayette" "Huntsville" "Savannah" "Jackson" "Fort Smith" 
+		"Chattanooga" "Alexandria" "Tampa" "Oklahoma City" "Austin" "Decatur" "Columbus" "Shreveport" "Fayetteville" "Tuscaloosa" "Wilmington" "Greensboro" "Biloxi" "Athens" 
+		"Jonesboro" "Macon" "Orlando" "Pine Bluff" "Tulsa" "Asheville" "Lake Charles" "Tupelo" "Winston-Salem" "Danville" "Shawnee" "Greenville" "Columbia" "Spartanburg" 
+		"Sumter" "Hattiesburg" "El Paso" "Roanoke" 
+	}
+}
+
+### CSA BATTLESHIP NAMES ###
+USA_BB_CONFEDERATE = {
+	name = NAME_THEME_CONFEDERATE_BB
+
+	for_countries = { CSA USA }
+	can_use = {
+		OR = {
+			tag = CSA
+			has_completed_focus = USA_honor_the_confederacy
+		}
+	}
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "CSS "							
+	fallback_name = "Battleship BB-%d"		
+
+	unique = {
+		"Virginia" "Alabama" "Texas" "Florida" "Georgia" "Mississippi" "North Carolina" "South Carolina" "Tennessee" "Louisiana" "Arkansas" 
+		"Oklahoma" "Kentucky" "Missouri" "Delaware" "Maryland" "Arizona" "Indiana" "Kansas" "New Mexico"  
+	}
+}
+
+### CSA BATTLECRUISER NAMES ###
+USA_BC_CONFEDERATE = {
+	name = NAME_THEME_CONFEDERATE_BC
+
+	for_countries = { CSA USA }
+	can_use = {
+		OR = {
+			tag = CSA
+			has_completed_focus = USA_honor_the_confederacy
+		}
+	}
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "CSS "							
+	fallback_name = "Battlecruiser BC-%d"		
+
+	unique = {
+			#List of stinging insects in the Southern States
+			"Yellow Jacket" "Copperhead" "Fire Ant" "Rattler" "Black Widow" "Hornet" "Water Moccasin" "Wasp" "Scorpion" "Honey Bee" "Coral Snake" "Bumble Bee" "Chigger" 
+	}
+}
+
+### CSA AIRCRAFT CARRIER NAMES ###
+USA_CV_CONFEDERATE = {
+	name = NAME_THEME_CONFEDERATE_CARRIERS
+
+	for_countries = { CSA USA }
+	can_use = {
+		OR = {
+			tag = CSA
+			has_completed_focus = USA_honor_the_confederacy
+		}
+	}
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "CSS "							
+	fallback_name = "Carrier CV-%d"	
+
+	unique = {
+		"Robert E. Lee" "Stonewall Jackson" "Nathan B. Forrest" "Patrick Henry" "Jefferson Davis" "James Longstreet" "Stephen Mallory" "Wade Hampton" "Thomas Jefferson" 
+		"Pierre T. G. Beauregard" "Kirby Smith" "Braxton Bragg" "Albert Sidney Johnston" "Joseph E. Johnston" "John Bell Hood" "A.P. Hill" "Richard Ewell" 
+		"Simon Bolivar Buckner" "William Hardee" "D.H. Hill" "John C. Pemberton" "Leonidas Polk" "Theophilus Holmes" 
+	}
+}
+
+### CSA SUBMARINES ###
+CSA_SS_CONFEDERATE = {
+	name = NAME_THEME_CONFEDERATE_SUBMARINES
+
+	for_countries = { CSA USA }
+	can_use = {
+		OR = {
+			tag = CSA
+			has_completed_focus = USA_honor_the_confederacy
+		}
+	}
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "CSS "							
+	fallback_name = "Submarine SS-%d"	
+
+	unique = {
+		#Southern River list sorted by length
+		"Mississippi River" "Missouri River" "Red River" "Arkansas River" "Rio Grande" "Tennessee River" "Brazos River" "Pecos River" "White River" "James River" "Cimarron River" "Quachita River" "Sabine River" 
+		"Trinity River" "St Johns River" "Pearl River" "Roanoke River" "Cumberland River" "Trinity River" "James River" "Chattahoochie River" "St. Francis River" "Pee Dee River" "Savannah River" "Neches River" 
+		"Bayou Bartholomew" "Black River" "Coosa River" "Suwannee River" "Flint River" "Ogeechee River" "Big Black River" "New River" "Neosho River" "Clinch River" "Talapoosa River" "Catawba River" 
+		"Tombigbee River" "Little River" "Bayou Bacon" "Ochlockonee River" "Alapaha River" "Ocmulgee River" "Satilla River" "Oconee River" "Kentucky River" "Boeuf River" "Calcasieu River" "Hatchie River" 
+		"Chickasawhay River" "Tombigbee River" "Yazoo River" "Gasconade River" "Osage River" "Tar River" "Yadkin River" "Dan River" "French Broad River" "Cape Fear River" "Edisto River" "Saluda River" 
+		"Duck River" "Elk River" "Black Warrior River" "Rappahanock River" "Conecuh River" "Pea River" "Indian River" "Withlacoochee River" "Tensas River" "Tug Fork" "Leaf River" "Yalobusha River" "Meramac River" 
+		"Chariton River" "Wachita River" "Verdigris River" "Santee River" "Lynches River" "Lumber River" "Hiwassee River" "Caney Fork" "Nueshes River" "Appomattox River"
+	}
+}
+
+#####
